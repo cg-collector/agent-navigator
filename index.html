@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤖 AI Agent Navigator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 背景网格 -->
+  <div class="bg-grid"></div>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <span class="logo">🤖 AI Agent Navigator</span>
+    </div>
+    <div class="nav-center">
+      <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="searchInput" placeholder="搜索项目、标签、组织... (按 / 聚焦)" autocomplete="off">
+      </div>
+    </div>
+    <div class="nav-right">
+      <select id="sortSelect" class="sort-select">
+        <option value="score">按评分 ↓</option>
+        <option value="stars">按 Stars ↓</option>
+        <option value="id">按 ID ↑</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- 分类标签栏 -->
+  <div class="tags-bar" id="tagsBar">
+    <button class="tag-btn active" data-category="all">全部</button>
+    <button class="tag-btn" data-category="GUI-Agent">GUI-Agent</button>
+    <button class="tag-btn" data-category="编码框架">编码框架</button>
+    <button class="tag-btn" data-category="多智能体">多智能体</button>
+    <button class="tag-btn" data-category="工具链">工具链</button>
+    <button class="tag-btn" data-category="评测基准">评测基准</button>
+    <button class="tag-btn" data-category="浏览器代理">浏览器代理</button>
+    <button class="tag-btn" data-category="运行时框架">运行时框架</button>
+    <button class="tag-btn" data-category="其他">其他</button>
+  </div>
+
+  <!-- 主内容区 -->
+  <main class="main-content">
+    <!-- 骨架屏 -->
+    <div class="skeleton-grid" id="skeletonGrid">
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+      <div class="skeleton-card"><div class="sk-title"></div><div class="sk-text"></div><div class="sk-text short"></div><div class="sk-tags"></div></div>
+    </div>
+
+    <!-- 卡片网格 -->
+    <div class="card-grid" id="cardGrid"></div>
+
+    <!-- 无结果提示 -->
+    <div class="no-results" id="noResults" style="display:none;">
+      <div class="no-results-icon">🔍</div>
+      <p>没有找到匹配的项目</p>
+      <span>试试其他关键词或分类</span>
+    </div>
+  </main>
+
+  <!-- 底部统计栏 -->
+  <footer class="stats-bar" id="statsBar">
+    <span id="statsText">加载中...</span>
+  </footer>
+
+  <!-- 详情侧边面板遮罩 -->
+  <div class="detail-overlay" id="detailOverlay"></div>
+
+  <!-- 详情侧边面板 -->
+  <aside class="detail-panel" id="detailPanel">
+    <div class="detail-header">
+      <h2 id="detailTitle"></h2>
+      <button class="close-btn" id="closeDetailBtn">&times;</button>
+    </div>
+    <div class="detail-meta" id="detailMeta"></div>
+    <div class="detail-body" id="detailBody">
+      <div class="detail-loading">加载中...</div>
+    </div>
+  </aside>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

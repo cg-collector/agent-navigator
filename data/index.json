@@ -1,0 +1,5725 @@
+[
+  {
+    "id": "001",
+    "title": "DeerFlow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "organization": "bytedance",
+    "stars": 43447,
+    "category": "运行时框架",
+    "score": 9.0,
+    "tags": [
+      "LangGraph",
+      "LangChain",
+      "langgraph",
+      "MCP",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "传统 AI Agent 框架往往只提供底层组件，开发者需要大量工程工作才能让 Agent 真正执行任务",
+      "Agent 缺乏持久记忆、文件系统、沙箱执行、子代理编排等\"基础设施\"",
+      "DeerFlow 的定位是\"Harness\"——即\"电池 included\"的运行时，提供开箱即用的完整能力"
+    ],
+    "summary": "DeerFlow（Deep Exploration and Efficient Research Flow）是字节跳动（ByteDance）开源的 SuperAgent Harness，于 2026 年 2 月 28 日登顶 GitHub ",
+    "file": "reports/001.md"
+  },
+  {
+    "id": "005",
+    "title": "Letta",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "ReAct（早期）",
+    "stars": 21753,
+    "category": "工具链",
+    "score": 8.5,
+    "tags": [
+      "Claude",
+      "TypeScript",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Letta API**：将状态持久化Agent嵌入任何应用",
+      "Letta Code**：终端里的记忆优先编程助手，类似Claude Code但有持久记忆",
+      "Letta Platform**：托管服务，也支持完全自托管（Docker）"
+    ],
+    "summary": "Letta 前身是 **MemGPT**（MemoryGPT），是一个专注于**有状态持久记忆AI Agent**的开源平台。它的核心理念是：传统LLM是\"无状态的\"——每次对话都是孤立的，而真正的AI Agent应该能够**跨会话学习、记",
+    "file": "reports/005.md"
+  },
+  {
+    "id": "006",
+    "title": "Agno",
+    "url": "https://github.com/agno-agi/agno",
+    "organization": "agno-agi",
+    "stars": 23900,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "RAG",
+      "LangGraph",
+      "FastAPI",
+      "知识库",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "开箱即用的记忆系统**（Memory）",
+      "知识库集成**（Knowledge / RAG）",
+      "安全护栏**（Guardrails）"
+    ],
+    "summary": "Agno 是一个高性能的多智能体（Multi-Agent）框架，前身是 **PhiData**。它的核心理念是构建**生产就绪的 AI Agent 软件**，而不是实验室里的 demo。Agno 的口号是\"Build, run, manag",
+    "file": "reports/006.md"
+  },
+  {
+    "id": "007",
+    "title": "项目名称",
+    "url": "https://github.com/simular-ai/Agent-S",
+    "organization": "simular-ai",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Agent S3",
+      "计算机使用智能体框架",
+      "Agent-Computer Interface（ACI）"
+    ],
+    "summary": "项目概述 Agent S 是一个开源的**计算机使用智能体框架**（Computer-Use Agent Framework），其核心理念是构建能够像人类一样操作计算机的自主智能体，即**Agent-Computer Interface（A",
+    "file": "reports/007.md"
+  },
+  {
+    "id": "008",
+    "title": "License",
+    "url": "https://github.com/RUC-NLPIR/DeepAgent",
+    "organization": "RUC-NLPIR",
+    "stars": 2025,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "ReAct",
+      "记忆管理"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "项目概述 DeepAgent 是由中国人民大学NLPIR实验室主导开发的一个**端到端深度推理智能体**，其核心创新在于：将推理（Reasoning）、工具发现（Tool Discovery）和动作执行（Action Execution）整",
+    "file": "reports/008.md"
+  },
+  {
+    "id": "009",
+    "title": "GitHub",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 2,
+    "category": "工具链",
+    "score": 6.5,
+    "tags": [
+      "LLM",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "\"代码优先\"（Code-First）"
+    ],
+    "summary": "smolagents 是 Hugging Face 于 2025 年初推出的轻量级 AI Agent 框架，核心理念是**\"代码优先\"（Code-First）**——让 Agent 直接用 Python 代码来表达和执行动作，而非传统的 J",
+    "file": "reports/009.md"
+  },
+  {
+    "id": "010",
+    "title": "3.1 V0 → V1 的架构演进",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "organization": "All-Hands-AI",
+    "stars": 64000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "React",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "AI 驱动的自主开发平台",
+      "V0 的问题："
+    ],
+    "summary": "OpenHands 是目前最成功的开源软件工程 Agent 之一，目标是构建一个 **AI 驱动的自主开发平台**——Agent 可以像真正的开发者一样读代码、写代码、跑测试、提交 PR。",
+    "file": "reports/010.md"
+  },
+  {
+    "id": "011",
+    "title": "名称：Pydantic AI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "Pydantic 团队（Samuel Colvin 等）",
+    "stars": 15000,
+    "category": "工具链",
+    "score": 8.0,
+    "tags": [
+      "MCP",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "工程可靠性"
+    ],
+    "summary": "** 类型安全的 GenAI Agent 框架",
+    "file": "reports/011.md"
+  },
+  {
+    "id": "012",
+    "title": "Function Calling",
+    "url": "https://github.com/google/adk-python",
+    "organization": "通过 `sub_agents` 参数建立父子关系",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "LLM",
+      "TypeScript",
+      "Go",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "语言支持:",
+      "code-first（代码优先）"
+    ],
+    "summary": "Google ADK 是 Google 于 2025 年推出的开源 Agent 开发工具包，支持 Python、TypeScript、Go、Java 四种语言。它的核心定位是提供一个 **code-first（代码优先）** 的框架，用于构",
+    "file": "reports/012.md"
+  },
+  {
+    "id": "013",
+    "title": "Report #013",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "organization": "agentscope-ai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "报告编号：",
+      "以开发者为中心（Developer-Centric）"
+    ],
+    "summary": "项目基本信息 | 项目名称 | AgentScope | |----------|-----------| | GitHub 地址 | https://github.com/agentscope-ai/agentscope | | 开发组织",
+    "file": "reports/013.md"
+  },
+  {
+    "id": "014",
+    "title": "Report #014",
+    "url": "https://github.com/camel-ai/owl",
+    "organization": "每个 Worker 配备特定领域的工具集（Toolkits），如浏览器自动化、网",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "报告编号：",
+      "开源框架第 1 名"
+    ],
+    "summary": "项目基本信息 | 项目名称 | OWL (Optimized Workforce Learning) | |----------|-----------| | GitHub 地址 | https://github.com/camel-ai/",
+    "file": "reports/014.md"
+  },
+  {
+    "id": "015",
+    "title": "GitHub",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "langchain-ai",
+    "stars": 35000,
+    "category": "运行时框架",
+    "score": 9.0,
+    "tags": [
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "报告编号："
+    ],
+    "summary": "LangGraph 的核心思想是把**Agent 工作流建模为有向图（Directed Graph）**，每个节点（Node）是执行逻辑，每个边（Edge）定义状态转移。这与大多数把 Agent 视为\"循环调用 LLM\"的框架有本质区别。",
+    "file": "reports/015.md"
+  },
+  {
+    "id": "016",
+    "title": "基本信息",
+    "url": "https://github.com/Joeavaib/maestro",
+    "organization": "Joeavaib",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Forest Architecture（森林架构）",
+      "Raven"
+    ],
+    "summary": "Maestro 采用了名为 **Forest Architecture（森林架构）** 的去中心化多智能体设计，整个系统在本地运行，不依赖云端 API。其核心理念是：将一个复杂的软件工程任务拆解为由多个专业化 Agent 组成的流水线，各 ",
+    "file": "reports/016.md"
+  },
+  {
+    "id": "017",
+    "title": "项目名称",
+    "url": "https://github.com/i-am-bee/beeai-framework",
+    "organization": "IBM Research（i-am-bee 团队）",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "RAG",
+      "MCP",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "BeeAI Framework",
+      "ACP 协议仓库"
+    ],
+    "summary": "架构概述 BeeAI Framework 是 IBM Research 推出的生产级 AI Agent 框架，核心设计目标是**解决 AI Agent 孤岛问题**——即不同框架、不同团队、不同基础设施上构建的 Agent 难以互相通信与协",
+    "file": "reports/017.md"
+  },
+  {
+    "id": "018",
+    "title": "GitHub",
+    "url": "https://github.com/zoe-yyx/AgentNet",
+    "organization": "zoe-yyx",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "Memory"
+    ],
+    "language": "C++",
+    "license": "",
+    "key_innovations": [
+      "抛弃中心协调器",
+      "有向无环图（DAG）"
+    ],
+    "summary": "首个提出完全去中心化、具备动态DAG拓扑和RAG增强记忆的多智能体协作框架",
+    "file": "reports/018.md"
+  },
+  {
+    "id": "019",
+    "title": "A2A vs MCP 的区别",
+    "url": "https://github.com/a2aproject/A2A",
+    "organization": "a2aproject",
+    "stars": 10000,
+    "category": "工具链",
+    "score": 7.5,
+    "tags": [
+      "LangGraph",
+      "MCP",
+      "TypeScript",
+      "Go",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "SDK 支持"
+    ],
+    "summary": "填补了 Agent 互操作性的空白，解决了一个真实且紧迫的问题",
+    "file": "reports/019.md"
+  },
+  {
+    "id": "020",
+    "title": "AgentDoG",
+    "url": "https://github.com/AI45Lab/AgentDoG",
+    "organization": "AI45Lab",
+    "stars": 410,
+    "category": "运行时框架",
+    "score": 6.5,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "HuggingFace"
+    ],
+    "summary": "AgentDoG 是一个**专注于 AI Agent 安全与防护的诊断型护栏框架**，由上海人工智能实验室（Shanghai AI Lab）的安全可信 AI 中心（Center for Safe & Trustworthy AI）提出。",
+    "file": "reports/020.md"
+  },
+  {
+    "id": "021",
+    "title": "Letta",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "#### 第一层：消息缓冲区（Message Buffer）— RAM",
+    "stars": 21800,
+    "category": "其他",
+    "score": 8.5,
+    "tags": [
+      "GPT",
+      "LLM",
+      "Claude",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "首个将大模型记忆持久化做到工程化水平的开源项目"
+    ],
+    "summary": "Letta的AI Agent研究分析",
+    "file": "reports/021.md"
+  },
+  {
+    "id": "022",
+    "title": "smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 26300,
+    "category": "编码框架",
+    "score": 8.5,
+    "tags": [
+      "GPT",
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Hugging Face 官方",
+      "极简到骨子里"
+    ],
+    "summary": "smolagents 是由 **Hugging Face 官方**发布的 AI Agent 极简框架，其核心理念是：",
+    "file": "reports/022.md"
+  },
+  {
+    "id": "023",
+    "title": "GitHub",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "organization": "所有组件（Agent、Tools、LLM）在构造时验证不可变；单一对话状态对象记",
+    "stars": 64000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "Anthropic",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "报告时间："
+    ],
+    "summary": "All-Hands AI 是一个开源社区，专注于为所有人构建 AI 软件开发 Agent。OpenHands 是其核心产品，定位为**云端编码 Agent 的开放平台**，能让 AI Agent 像人类开发者一样修改代码、运行命令、浏览网页",
+    "file": "reports/023.md"
+  },
+  {
+    "id": "024",
+    "title": "mini",
+    "url": "https://github.com/SWE-agent/mini-swe-agent",
+    "organization": "> \"如果我们的 Agent 简化 100 倍，性能还能接近原版吗？\"",
+    "stars": 3548,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "报告编号："
+    ],
+    "summary": "mini的AI Agent研究分析",
+    "file": "reports/024.md"
+  },
+  {
+    "id": "025",
+    "title": "项目名称",
+    "url": "https://github.com/SWE-agent/swe-agent",
+    "organization": "随着 LLM 能力提升，Agent 的脚手架复杂度可以大幅降低。mini",
+    "stars": 18866,
+    "category": "编码框架",
+    "score": 8.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "SWE-agent",
+      "mini-SWE-agent",
+      "18,866"
+    ],
+    "summary": "SWE-agent 由**普林斯顿大学**和**斯坦福大学**的研究人员开发，首次在 NeurIPS 2024 上发表论文《SWE-agent: Agent-Computer Interfaces Enable Automated Soft",
+    "file": "reports/025.md"
+  },
+  {
+    "id": "026",
+    "title": "Letta (formerly MemGPT)",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "ReAct 架构（2022）：Thought → Action →",
+    "stars": 21800,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "TypeScript",
+      "Memory",
+      "记忆管理"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Stateful Agent Runtime"
+    ],
+    "summary": "研究人：桐桐  \n> 日期：2026-03-28  \n> 推荐指数：⭐⭐⭐⭐⭐",
+    "file": "reports/026.md"
+  },
+  {
+    "id": "027",
+    "title": "GitHub",
+    "url": "https://github.com/AI45Lab/AgentDoG",
+    "organization": "AI45Lab",
+    "stars": 410,
+    "category": "运行时框架",
+    "score": 6.5,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "AgentDoG（Agent Diagnostic Guardrails）是由**上海人工智能实验室**提出的**轨迹级风险诊断与防护框架",
+      "> 传统 LLM 安全护栏（如 LlamaGuard3、Qwen3Guard）只能在**单步输出**层面做内容过滤，但 AI Agent 的风险往往**产生于多步执行轨迹中间**，传统方法对此束手无策",
+      "AgentDoG 的创新在于**对 Agent 执行轨迹（trajectory）进行全程监控和风险溯源**——不只是判断\"这条输出安不安全\"，而是回答\"**为什么这个 Agent 会这样做"
+    ],
+    "summary": "AgentDoG（Agent Diagnostic Guardrails）是由**上海人工智能实验室**提出的**轨迹级风险诊断与防护框架**。它的核心洞察是： > 传统 LLM 安全护栏（如 LlamaGuard3、Qwen3Guard）",
+    "file": "reports/027.md"
+  },
+  {
+    "id": "028",
+    "title": "GitHub",
+    "url": "https://github.com/plandex-ai/plandex",
+    "organization": "plandex-ai",
+    "stars": 14000,
+    "category": "编码框架",
+    "score": 8.0,
+    "tags": [
+      "Go",
+      "TypeScript",
+      "React"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "Plandex 是一个**终端原生的 AI 编程 Agent**，它不是又一个\"粘贴代码到 ChatGPT\"的工具，而是真正为**大型真实项目**设计的开发助手",
+      "学姐最直观的感受是：市面上的 AI 编程工具在处理小任务（\"帮我写个函数\"）时还不错，但一旦项目变大（几十个文件、数万行代码），就开始力不从心——上下文窗口不够用、分不清哪些文件相关、生成的代码一塌糊涂",
+      "Plandex 的核心赌注是**：用正确的架构，让 AI 在真正的大型项目里也能可靠地工作"
+    ],
+    "summary": "Plandex 是一个**终端原生的 AI 编程 Agent**，它不是又一个\"粘贴代码到 ChatGPT\"的工具，而是真正为**大型真实项目**设计的开发助手。 学姐最直观的感受是：市面上的 AI 编程工具在处理小任务（\"帮我写个函数\"）",
+    "file": "reports/028.md"
+  },
+  {
+    "id": "029",
+    "title": "Report #029",
+    "url": "https://github.com/ruvnet/ruflo",
+    "organization": "ruvnet",
+    "stars": 100,
+    "category": "工具链",
+    "score": 6.5,
+    "tags": [
+      "Claude",
+      "MCP",
+      "LLM",
+      "Rust",
+      "TypeScript"
+    ],
+    "language": "TypeScript",
+    "license": "",
+    "key_innovations": [
+      "核心层级：",
+      "群体协调层",
+      "Agent 层"
+    ],
+    "summary": "```\n用户 → CLI/MCP → 安全层 → 路由层 → 群体协调层 → Agent 池 → 资源层\n                         ↑                          ↓\n             ",
+    "file": "reports/029.md"
+  },
+  {
+    "id": "030",
+    "title": "Report #030",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "将多个 Agent 和 Task 组合在一起，定义协作流程和执行策略。支持顺序执",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangChain",
+      "数据分析"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "1. Agent（智能体）**：具有角色（Role）、目标（Goal）和背景故事（Backstory）的自主 AI 实体。每个 Agent 都有自己的专长和决策能力，可以根据设定的角色自主思考和行动。",
+    "file": "reports/030.md"
+  },
+  {
+    "id": "031",
+    "title": "Superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "organization": "确保Agent输出符合工程规范，而不是\"看起来对的代码\"",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Claude"
+    ],
+    "language": "",
+    "license": "MPL",
+    "key_innovations": [
+      "Superpowers",
+      "可组合的 Skills（技能）系统",
+      "技能层（Skills）"
+    ],
+    "summary": "3. **平台适配层**：支持 Claude Code（插件市场）、Cursor、Codex、OpenCode、Gemini CLI 等主流编程Agent平台，通过各自的插件/配置机制加载技能。",
+    "file": "reports/031.md"
+  },
+  {
+    "id": "032",
+    "title": "Report #032",
+    "url": "https://github.com/openai/codex",
+    "organization": "AGENTS.md 统一团队 AI 编码规范，跨工具兼容",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "MCP",
+      "GPT",
+      "Rust"
+    ],
+    "language": "Rust",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Core 层",
+      "Security 层"
+    ],
+    "summary": "```\n┌─────────────────────────────────────────────────────────┐\n│ SURFACE 层：CLI / Desktop App / IDE 扩展 / Cloud Tasks │\n├",
+    "file": "reports/032.md"
+  },
+  {
+    "id": "033",
+    "title": "Report #033",
+    "url": "https://github.com/cline/cline",
+    "organization": "cline",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "Claude",
+      "MCP",
+      "LLM",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "Human-in-the-Loop（人在回路）",
+      "IDE 扩展层（VS Code / JetBrains）",
+      "Agent Loop 核心层"
+    ],
+    "summary": "Cline 的核心是一个 **Human-in-the-Loop（人在回路）** 的 Agent Loop：",
+    "file": "reports/033.md"
+  },
+  {
+    "id": "034",
+    "title": "Report #034",
+    "url": "https://github.com/bytedance/deer-flow",
+    "organization": "bytedance",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "LangGraph",
+      "Claude",
+      "TypeScript",
+      "代码生成"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "主控 Agent（Super Agent）",
+      "子 Agent 系统",
+      "技能系统（Skills & Tools）"
+    ],
+    "summary": "技术栈：Python（后端）+ TypeScript/Node.js（前端），基于 LangGraph 构建。",
+    "file": "reports/034.md"
+  },
+  {
+    "id": "035",
+    "title": "Report #035",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "OpenAI",
+      "对话系统"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "分层架构设计",
+      "Core（autogen-core）",
+      "AgentChat（autogen-agentchat）"
+    ],
+    "summary": "Core（autogen-core）**：底层事件驱动框架，基于 Actor 模型。Agent 作为独立 Actor 运行，通过消息传递通信，支持单进程和多进程（gRPC）部署。这是最底层、最灵活的层。",
+    "file": "reports/035.md"
+  },
+  {
+    "id": "036",
+    "title": "Dolt",
+    "url": "https://github.com/steveyegge/beads",
+    "organization": "steveyegge",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "mcp",
+      "Claude",
+      "Go"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "CLI 层",
+      "Agent 集成层"
+    ],
+    "summary": "Beads 的核心是一个基于 **Dolt**（版本控制 SQL 数据库）的嵌入式存储引擎，架构分为三层：",
+    "file": "reports/036.md"
+  },
+  {
+    "id": "037",
+    "title": "Plugin System",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "organization": "microsoft",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Java",
+      "memory",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "Kernel 核心",
+      "Agent Framework",
+      "Multi-Agent System"
+    ],
+    "summary": "学习 #037的AI Agent研究分析",
+    "file": "reports/037.md"
+  },
+  {
+    "id": "038",
+    "title": "Report #038",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "organization": "supermemoryai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "Claude",
+      "MCP",
+      "embedding",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "记忆引擎层 (Memory Engine)",
+      "用户画像层 (User Profiles)",
+      "混合搜索层 (Hybrid Search)"
+    ],
+    "summary": "Supermemory 采用\"记忆即服务\"(Memory-as-a-Service) 的架构设计，核心由以下几个层次组成：",
+    "file": "reports/038.md"
+  },
+  {
+    "id": "039",
+    "title": "第一部分：基础理论",
+    "url": "https://github.com/datawhalechina/hello-agents",
+    "organization": "datawhalechina",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "OpenAI",
+      "RAG",
+      "MCP",
+      "LLM"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "第一部分：基础理论",
+      "第二部分：动手构建",
+      "自研 Agent 框架 HelloAgents"
+    ],
+    "summary": "第一部分：基础理论**\n- 智能体定义、类型、范式与应用（Ch1-2）\n- 大语言模型基础（Ch3）",
+    "file": "reports/039.md"
+  },
+  {
+    "id": "040",
+    "title": "Report #040",
+    "url": "https://github.com/mastra-ai/mastra",
+    "organization": "mastra-ai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "MCP",
+      "rag",
+      "LLM",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "@mastra/core",
+      "@mastra/memory",
+      "@mastra/rag"
+    ],
+    "summary": "Mastra 采用模块化 monorepo 架构，核心包包括：",
+    "file": "reports/040.md"
+  },
+  {
+    "id": "041",
+    "title": "Report #041",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "organization": "nousresearch",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "核心子系统：",
+      "Agent Loop",
+      "Prompt System"
+    ],
+    "summary": "```\nhermes-agent/\n├── run_agent.py          # AIAgent 核心循环（同步编排引擎）\n├── cli.py                # 交互式终端 UI\n├── model_tools.",
+    "file": "reports/041.md"
+  },
+  {
+    "id": "042",
+    "title": "Report #042",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "FoundationAgents",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Memory"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "Code = SOP(Team)",
+      "Role（角色层）",
+      "Action（动作层）"
+    ],
+    "summary": "MetaGPT 的核心理念是 **Code = SOP(Team)**，即把标准操作流程（SOP）具象化并应用到由 LLM 组成的协作团队中。",
+    "file": "reports/042.md"
+  },
+  {
+    "id": "043",
+    "title": "Report #043",
+    "url": "https://github.com/opensage-agent/OpenSage",
+    "organization": "动态子 Agent 生成：OpenClaw 目前的 subagen",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Claude",
+      "LangChain",
+      "代码生成"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "自生成拓扑（Self-generated Topology）",
+      "自生成工具集（Self-generated Toolkits）",
+      "层次化图记忆系统（Hierarchical Graph-based Memory）"
+    ],
+    "summary": "1. **自生成拓扑（Self-generated Topology）**：Agent 可以在运行时动态创建、执行、终止子 Agent，自主决定多 Agent 系统的结构和依赖关系，无需人工预设。",
+    "file": "reports/043.md"
+  },
+  {
+    "id": "044",
+    "title": "Report #044",
+    "url": "https://github.com/browser-use/browser-use",
+    "organization": "browser-use",
+    "stars": 0,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "浏览器控制层",
+      "DOM 提取层",
+      "Agent 决策层"
+    ],
+    "summary": "1. **浏览器控制层**：通过 Playwright 启动和管理 Chromium 浏览器，但已从 Playwright 的 Node.js API 层迁移到直接通过 CDP（Chrome DevTools Protocol）通信，使用自",
+    "file": "reports/044.md"
+  },
+  {
+    "id": "045",
+    "title": "Middleware Pipeline",
+    "url": "https://github.com/microsoft/agent-framework",
+    "organization": "microsoft",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "streaming"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "统一 Agent 框架",
+      "Core Agent Layer",
+      "Graph-based Workflows"
+    ],
+    "summary": "项目结构分为 `python/packages/` 和 `dotnet/src/`，每个语言下有对应的 samples、labs 和 devui 模块。",
+    "file": "reports/045.md"
+  },
+  {
+    "id": "046",
+    "title": "Report #046",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "organization": "基本面分析师、情绪分析师、新闻分析师、技术分析师，各自负责不同维度的市场数据解读",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "GPT",
+      "Claude"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "分析师团队（4类）",
+      "LangGraph"
+    ],
+    "summary": "采用双模型架构：deep_think_llm 用于深度分析，quick_think_llm 用于快速响应，支持 GPT-5.x、Gemini 3.x、Claude 4.x、Grok 4.x 等主流模型。",
+    "file": "reports/046.md"
+  },
+  {
+    "id": "047",
+    "title": "Report #047",
+    "url": "https://github.com/codeflash-ai/phidata",
+    "organization": "Phidata 的 `team=[...]` 参数让协调 Agent 自动分发任",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "GPT",
+      "Claude",
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Agent 层",
+      "Team 层",
+      "Model 层"
+    ],
+    "summary": "核心设计哲学：**少即是多**。每个概念都通过 Python 类表达，没有复杂的图、节点、边抽象，开发者面对的就是 Agent、Tool、Model 三个核心概念。",
+    "file": "reports/047.md"
+  },
+  {
+    "id": "048",
+    "title": "Augmented LLM",
+    "url": "https://github.com/lastmile-ai/mcp-agent",
+    "organization": "lastmile-ai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "mcp",
+      "MCP",
+      "Anthropic",
+      "LLM",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "\"MCP is all you need\"",
+      "MCP 基础层",
+      "Agent 模式层"
+    ],
+    "summary": "Python 编写，支持 FastMCP 兼容 API，Agent 本身也可作为 MCP Server 暴露。",
+    "file": "reports/048.md"
+  },
+  {
+    "id": "049",
+    "title": "Runner",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LLM",
+      "LangChain",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "Agent",
+      "Runner",
+      "Handoffs（交接）"
+    ],
+    "summary": "设计原则：功能足够有用，但原语足够少，学习成本低。Python-first，利用语言特性而非自创 DSL。",
+    "file": "reports/049.md"
+  },
+  {
+    "id": "050",
+    "title": "Report #050",
+    "url": "https://github.com/agentscope-ai/ReMe",
+    "organization": "ReMeLight — 文件型记忆系统（核心）",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "MEMORY",
+      "memory",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "ContextChecker",
+      "Compactor"
+    ],
+    "summary": "ReMe 来自 AgentScope 团队（阿里达摩院），提供两套记忆系统：",
+    "file": "reports/050.md"
+  },
+  {
+    "id": "051",
+    "title": "Report #051",
+    "url": "https://github.com/camel-ai/owl",
+    "organization": "camel-ai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "多角色协作范式",
+      "Agent Society（智能体社会）",
+      "Toolkit Layer（工具包层）"
+    ],
+    "summary": "OWL 的核心架构建立在 CAMEL-AI 框架之上，采用**多角色协作范式**，主要模块包括：",
+    "file": "reports/051.md"
+  },
+  {
+    "id": "052",
+    "title": "项目名称",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "organization": "stanfordnlp",
+    "stars": 33255,
+    "category": "其他",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "RAG",
+      "OpenAI",
+      "ReAct",
+      "ChainOfThought"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "用编程取代提示词工程"
+    ],
+    "summary": "DSPy**（Declarative Self-improving Python）",
+    "file": "reports/052.md"
+  },
+  {
+    "id": "053",
+    "title": "Report #053",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "organization": "google-gemini",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "CLAUDE",
+      "OpenAI",
+      "自动化"
+    ],
+    "language": "Go",
+    "license": "",
+    "key_innovations": [
+      "CLI 入口层",
+      "CI/CD 集成"
+    ],
+    "summary": "Gemini CLI 采用 Terminal-first 设计，核心架构：",
+    "file": "reports/053.md"
+  },
+  {
+    "id": "054",
+    "title": "Report #054",
+    "url": "https://github.com/MoonshotAI/kimi-cli",
+    "organization": "MoonshotAI",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "CLI 交互层",
+      "Web UI 层",
+      "ACP 集成层"
+    ],
+    "summary": "技术栈：Python 3.12-3.14，通过 uv 包管理器安装分发",
+    "file": "reports/054.md"
+  },
+  {
+    "id": "055",
+    "title": "Report #055",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "MCP",
+      "LangChain",
+      "多模态"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "CodeAgent",
+      "Hub 集成",
+      "CodeAgent 范式"
+    ],
+    "summary": "安装: `pip install \"smolagents[toolkit]\"`",
+    "file": "reports/055.md"
+  },
+  {
+    "id": "056",
+    "title": "Report #056",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "organization": "unclecode",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "RAG",
+      "MCP"
+    ],
+    "language": "JavaScript",
+    "license": "",
+    "key_innovations": [
+      "内容提取层",
+      "AI-First 设计"
+    ],
+    "summary": "学习 #056的AI Agent研究分析",
+    "file": "reports/056.md"
+  },
+  {
+    "id": "057",
+    "title": "Report #057",
+    "url": "https://github.com/hyperbrowserai/HyperAgent",
+    "organization": "hyperbrowserai",
+    "stars": 0,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "AI 控制层",
+      "AI + 确定性回放双模式"
+    ],
+    "summary": "学习 #057的AI Agent研究分析",
+    "file": "reports/057.md"
+  },
+  {
+    "id": "058",
+    "title": "Runner",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LLM",
+      "LangGraph"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Runner",
+      "极简 API"
+    ],
+    "summary": "学习 #058的AI Agent研究分析",
+    "file": "reports/058.md"
+  },
+  {
+    "id": "059",
+    "title": "名称：Mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "organization": "团队有构建开发者工具的经验，API 设计成熟",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "RAG",
+      "LangChain",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "TypeScript 原生",
+      "Gatsby 团队出品"
+    ],
+    "summary": "学习 #059的AI Agent研究分析",
+    "file": "reports/059.md"
+  },
+  {
+    "id": "060",
+    "title": "Report #060",
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "organization": "CopilotKit",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "MCP",
+      "TypeScript",
+      "React"
+    ],
+    "language": "TypeScript",
+    "license": "",
+    "key_innovations": [
+      "核心协议：",
+      "设计模式："
+    ],
+    "summary": "1. **AG-UI 协议** — 定义了 Agent 与 UI 之间的标准通信层，Agent 后端可以独立替换，前端不感知具体实现。类似 MCP 解决 Agent-to-Tool 的问题，AG-UI 解决 Agent-to-User 的问",
+    "file": "reports/060.md"
+  },
+  {
+    "id": "062",
+    "title": "项目名称：Atomic Agents",
+    "url": "https://github.com/BrainBlend-AI/atomic-agents",
+    "organization": "BrainBlend-AI",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "设计模式：",
+      "多模型支持："
+    ],
+    "summary": "AI Agent 项目学习报告 #062的AI Agent研究分析",
+    "file": "reports/062.md"
+  },
+  {
+    "id": "063",
+    "title": "Report #063",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "organization": "ag-ui-protocol",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "LangGraph",
+      "TypeScript"
+    ],
+    "language": "TypeScript",
+    "license": "",
+    "key_innovations": [
+      "设计模式：",
+      "事件驱动架构"
+    ],
+    "summary": "MCP 给 Agent 工具 → A2A 让 Agent 之间通信 → AG-UI 把 Agent 带到用户面前",
+    "file": "reports/063.md"
+  },
+  {
+    "id": "064",
+    "title": "项目名称",
+    "url": "https://github.com/strands-agents/sdk-python",
+    "organization": "strands-agents",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "Anthropic",
+      "OpenAI",
+      "LangGraph",
+      "LLM",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "设计模式：",
+      "模型驱动循环（Model-Driven Loop）"
+    ],
+    "summary": "技术栈：** Python + TypeScript 双语言 SDK，支持 Amazon Bedrock、Anthropic、OpenAI 等多家模型提供商。",
+    "file": "reports/064.md"
+  },
+  {
+    "id": "065",
+    "title": "项目名称：Agency Swarm",
+    "url": "https://github.com/VRSEN/agency-swarm",
+    "organization": "VRSEN",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "设计模式：",
+      "组织架构模式"
+    ],
+    "summary": "技术栈：** Python 3.12+，OpenAI Agents SDK，LiteLLM（多模型支持），Pydantic（类型安全）",
+    "file": "reports/065.md"
+  },
+  {
+    "id": "066",
+    "title": "项目名称：CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "crewAIInc",
+    "stars": 40000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LangChain",
+      "OpenAI",
+      "Anthropic",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "核心概念：",
+      "Agent"
+    ],
+    "summary": "AI Agent 项目学习报告 #066的AI Agent研究分析",
+    "file": "reports/066.md"
+  },
+  {
+    "id": "067",
+    "title": "项目名称：AutoGen（Microsoft）",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 1,
+    "category": "多智能体",
+    "score": 6.5,
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "异步架构：",
+      "设计模式："
+    ],
+    "summary": "AI Agent 项目学习报告 #067的AI Agent研究分析",
+    "file": "reports/067.md"
+  },
+  {
+    "id": "068",
+    "title": "项目名称：smolagents（HuggingFace）",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "MCP",
+      "LangChain",
+      "LLM",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "设计模式：",
+      "沙箱执行："
+    ],
+    "summary": "AI Agent 学习报告 #068的AI Agent研究分析",
+    "file": "reports/068.md"
+  },
+  {
+    "id": "069",
+    "title": "项目名称",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "Meta Programming for a Multi-Agent Colla",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "MetaGPT",
+      "\"Code = SOP(Team)\"",
+      "把一个软件公司的完整流程压缩到一个 Agent 团队里"
+    ],
+    "summary": "MetaGPT 是一个让大语言模型像真实软件公司一样协作的多智能体框架，核心理念是 **\"Code = SOP(Team)\"**——把标准操作流程（SOP）具象化，让多个 AI Agent 扮演产品经理、架构师、工程师等角色，共同完成复杂任",
+    "file": "reports/069.md"
+  },
+  {
+    "id": "070",
+    "title": "项目名称",
+    "url": "https://github.com/SWE-agent/mini-swe-agent",
+    "organization": "去掉所有花哨工具和复杂接口，AI 反而更强",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Claude",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "mini-SWE-agent",
+      "如果把 Agent 做得极简 100 倍，还能同样有效吗？",
+      "不仅能，还能！"
+    ],
+    "summary": "普林斯顿 + 斯坦福团队用 100 行 Python 代码打造的极简 GitHub Issue 自动修复 Agent，在 SWE-bench verified 上达到 >74% 准确率——证明了\"少即是多\"：去掉所有花哨工具和复杂接口，AI",
+    "file": "reports/070.md"
+  },
+  {
+    "id": "071",
+    "title": "项目名称",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LLM",
+      "gpt"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "OpenAI Agents SDK",
+      "不绑定 OpenAI 模型"
+    ],
+    "summary": "OpenAI 官方出品的轻量级 AI Agent 开发 SDK，仅用\"Agent + Handoff + Guardrail\"三个核心原语，就实现了生产级别的多 Agent 协作编排，内置追踪（Tracing）、安全验证和会话（Sessio",
+    "file": "reports/071.md"
+  },
+  {
+    "id": "072",
+    "title": "smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 2025,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "LLM",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "smolagents 是 Hugging Face 官方推出的轻量级 AI Agent 开发库，核心理念是\"少即是多\"（Less is More）",
+      "与其他动辄数万行代码的 Agent 框架相比，smolagents 保持了极简风格，**核心代码仅约 1000 行**，但功能毫不逊色"
+    ],
+    "summary": "smolagents 是 Hugging Face 官方推出的轻量级 AI Agent 开发库，核心理念是\"少即是多\"（Less is More）。与其他动辄数万行代码的 Agent 框架相比，smolagents 保持了极简风格，**核心",
+    "file": "reports/072.md"
+  },
+  {
+    "id": "073",
+    "title": "Skyvern",
+    "url": "https://github.com/skyvern-ai/skyvern",
+    "organization": "skyvern-ai",
+    "stars": 18000,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "Skyvern 2.0 在相关 benchmark 中取得了 **85.8%** 的得分，处于领域领先水平"
+    ],
+    "summary": "Skyvern 是一个基于**大语言模型（LLM）+ 计算机视觉**的开源浏览器自动化平台。与传统依赖 XPath 或 DOM 选择器的爬虫/自动化工具不同，Skyvern 让 AI \"看\" 到整个页面截图，通过多模态大模型理解页面语义，从",
+    "file": "reports/073.md"
+  },
+  {
+    "id": "074",
+    "title": "一、项目简介",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "letta-ai",
+    "stars": 20000,
+    "category": "其他",
+    "score": 8.0,
+    "tags": [
+      "GPT",
+      "LLM",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "有状态 AI 代理（Stateful Agents）"
+    ],
+    "summary": "Letta 是一个用于构建**有状态 AI 代理（Stateful Agents）**的开源平台，核心理念是让 AI 代理拥有**持久记忆**，能够在多轮对话中学习、积累、自我改进。 Letta 最早以 **MemGPT**（Memory ",
+    "file": "reports/074.md"
+  },
+  {
+    "id": "075",
+    "title": "CrewAI",
+    "url": "https://github.com/crewaiinc/crewai",
+    "organization": "crewaiinc",
+    "stars": 44000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "| 多智能体团队 | 强调自主决策、动态任务分配、角色化协作 |",
+      "| 事件驱动工作流 | 精细控制执行路径、状态管理、条件分支 |"
+    ],
+    "summary": "CrewAI 是一个**从零构建的轻量级 Python 框架**，完全独立于 LangChain 或其他 Agent 框架。核心理念是**多智能体协作**（Collaborative Intelligence）—— 让多个 AI Agent",
+    "file": "reports/075.md"
+  },
+  {
+    "id": "076",
+    "title": "Agno",
+    "url": "https://github.com/agno-agi/agno",
+    "organization": "AI Agent 设计不一定要追求\"大一统\"，专业化分工 + 协作可能是更实用的",
+    "stars": 19000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "MCP",
+      "anthropic",
+      "Claude",
+      "mcp",
+      "claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Agno 是一个面向\"代理软件\"（Agentic Software）的运行时平台，被称为\"Agentic Software 的编程语言\"",
+      "它不仅仅是一个 Agent 框架，更是一个完整的构建、运行、管理代理软件的生态系统",
+      "核心理念是：让开发者能够像搭积木一样构建多 Agent 系统，并在生产环境中大规模运行、监控和管理它们"
+    ],
+    "summary": "Agno 是一个面向\"代理软件\"（Agentic Software）的运行时平台，被称为\"Agentic Software 的编程语言\"。它不仅仅是一个 Agent 框架，更是一个完整的构建、运行、管理代理软件的生态系统。核心理念是：让开发",
+    "file": "reports/076.md"
+  },
+  {
+    "id": "077",
+    "title": "TaskWeaver",
+    "url": "https://github.com/microsoft/TaskWeaver",
+    "organization": "microsoft",
+    "stars": 8000,
+    "category": "其他",
+    "score": 7.5,
+    "tags": [
+      "LLM",
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "TaskWeaver 是微软推出的**代码优先（Code-First）AI Agent 框架**，专注于**数据分析和复杂任务规划执行",
+      "与传统的纯文本对话式 Agent 不同，TaskWeaver 通过代码片段来理解和执行用户请求，能够处理 pandas DataFrame 等复杂数据结构，实现\"生成代码 → 执行代码 → 分析结果\"的闭环",
+      "核心理念：**让 LLM 像专业数据分析师一样思考和工作**，用户只需用自然语言描述需求，TaskWeaver 自动完成从规划到执行的全流程"
+    ],
+    "summary": "TaskWeaver 是微软推出的**代码优先（Code-First）AI Agent 框架**，专注于**数据分析和复杂任务规划执行**。与传统的纯文本对话式 Agent 不同，TaskWeaver 通过代码片段来理解和执行用户请求，能够",
+    "file": "reports/077.md"
+  },
+  {
+    "id": "078",
+    "title": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "organization": "google-gemini",
+    "stars": 96700,
+    "category": "工具链",
+    "score": 9.5,
+    "tags": [
+      "MCP",
+      "TypeScript"
+    ],
+    "language": "TypeScript",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "命令式终端交互 + 模块化工具层"
+    ],
+    "summary": "Gemini CLI 是 Google 官方发布的开源 AI Agent，直接在终端里调用 Gemini 大模型，让开发者用自然语言完成代码编辑、调试、文件操作、Git 工作流等任务。支持 MCP（Model Context Protoco",
+    "file": "reports/078.md"
+  },
+  {
+    "id": "079",
+    "title": "GitHub",
+    "url": "https://github.com/camel-ai/owl",
+    "organization": "CAMEL-AI",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "团队打造的多智能体协作框架，核心理念是让多个专业化 Agent 通过动态协作来完成真实世界任务。它在 **GAIA 基准测试**中以 69.09% 的成绩位居开"
+    ],
+    "summary": "OWL 是由 **CAMEL-AI** 团队打造的多智能体协作框架，核心理念是让多个专业化 Agent 通过动态协作来完成真实世界任务。它在 **GAIA 基准测试**中以 69.09% 的成绩位居开源框架第一，甚至超越了 OpenAI D",
+    "file": "reports/079.md"
+  },
+  {
+    "id": "080",
+    "title": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "organization": "langgenius",
+    "stars": 119000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "RAG",
+      "LangChain",
+      "Embedding",
+      "GPT"
+    ],
+    "language": "",
+    "license": "Apache-2.0",
+    "key_innovations": [
+      "Dify 是一个开源的 LLM 应用开发平台，核心理念是 **Agentic Workflow（智能体工作流）",
+      "它提供直观的可视化界面，融合了 AI 工作流、RAG 管道、Agent 能力、模型管理、可观测性等功能，让团队能够从原型快速过渡到生产环境",
+      "Dify 与 LangChain 的最大区别在于：LangChain 专注于单点交互，而 Dify 是一个**多触点服务层**，支持复杂的企业集成场景，适合没有技术背景的用户通过低代码方式构建 AI 应用，也支持开发者通过 API 深度定制"
+    ],
+    "summary": "Dify 是一个开源的 LLM 应用开发平台，核心理念是 **Agentic Workflow（智能体工作流）**。它提供直观的可视化界面，融合了 AI 工作流、RAG 管道、Agent 能力、模型管理、可观测性等功能，让团队能够从原型快速",
+    "file": "reports/080.md"
+  },
+  {
+    "id": "081",
+    "title": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "Actor Model",
+      "Actor"
+    ],
+    "summary": "AutoGen 是微软发布的开源多Agent对话框架，让多个 LLM Agent 通过自然语言对话协作完成任务。2024年推出 0.4 版本，采用 Actor Model 重新设计架构，大幅提升模块化、稳定性和可扩展性。",
+    "file": "reports/081.md"
+  },
+  {
+    "id": "082",
+    "title": "Report #082",
+    "url": "https://github.com/lastmile-ai/mcp-agent",
+    "organization": "lastmile-ai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "mcp",
+      "MCP",
+      "Anthropic",
+      "anthropic",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "mcp-agent",
+      "Model Context Protocol（MCP）",
+      "可组合版本"
+    ],
+    "summary": "👤 研究人：桐桐（楠楠的姐姐）  \n> 📅 日期：2026-04-01  \n> ⭐ 专注领域：MCP 协议 + Agent 框架",
+    "file": "reports/082.md"
+  },
+  {
+    "id": "083",
+    "title": "Report #083",
+    "url": "",
+    "organization": "桐桐",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "Claude",
+      "GPT"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "MCP — Model Context Protocol（模型上下文协议）",
+      "MCP 的核心思路："
+    ],
+    "summary": "MCP — Model Context Protocol（模型上下文协议）**",
+    "file": "reports/083.md"
+  },
+  {
+    "id": "084",
+    "title": "一、项目简介",
+    "url": "https://github.com/lupantech/AgentFlow",
+    "organization": "lupantech",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "可训练的、工具增强型的 Agent 优化框架",
+      "解决当前工具增强推理方案的可扩展性和泛化能力不足的问题"
+    ],
+    "summary": "**解决当前工具增强推理方案的可扩展性和泛化能力不足的问题**。",
+    "file": "reports/084.md"
+  },
+  {
+    "id": "085",
+    "title": "🦉 OWL",
+    "url": "https://github.com/camel-ai/owl",
+    "organization": "一个人搞不定的事，团队协作可能轻松解决～ 多智能体就是这样工作的呢！",
+    "stars": 2025,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "CAMEL-AI",
+      "GAIA 基准测试"
+    ],
+    "summary": "项目名：** OWL (Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation)",
+    "file": "reports/085.md"
+  },
+  {
+    "id": "086",
+    "title": "Report #086",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LLM",
+      "llm",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "provider-agnostic（模型无关）**的，支持 OpenAI Responses/Chat Completions API 以及 **100+ 其他"
+    ],
+    "summary": "OpenAI Agents SDK 是一个轻量级但功能强大的多 Agent 工作流框架，于 2025 年 3 月发布。虽然由 OpenAI 发布，但它实际上是** provider-agnostic（模型无关）**的，支持 OpenAI R",
+    "file": "reports/086.md"
+  },
+  {
+    "id": "087",
+    "title": "OmAgent",
+    "url": "https://github.com/om-ai-lab/OmAgent",
+    "organization": "//github.com/om-ai-lab/open-agent-leader",
+    "stars": 2024,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "ReAct",
+      "CoT"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "OmAgent 是一个用于构建**多模态语言智能体（Multimodal Language Agents）**的 Python 库，由OmAI Lab 开发，发表在 EMNLP 2024",
+      "它的核心理念是：**让构建多模态 AI Agent 变得简单**——不追求大而全的框架抽象，而是把复杂的工程细节（Worker 编排、任务队列、节点优化等）隐藏在幕后，提供一个极易上手的接口来定义 Agent",
+      "OmAgent 最初的应用场景是**视频理解**——构建能回答任意关于上传视频的问题的智能体"
+    ],
+    "summary": "OmAgent 是一个用于构建**多模态语言智能体（Multimodal Language Agents）**的 Python 库，由OmAI Lab 开发，发表在 EMNLP 2024。 它的核心理念是：**让构建多模态 AI Agent",
+    "file": "reports/087.md"
+  },
+  {
+    "id": "088",
+    "title": "核心架构：沙箱隔离 + Agent 决策",
+    "url": "https://github.com/Decentralised-AI/OpenHands-FKA-OpenDevin",
+    "organization": "Decentralised-AI",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "",
+    "license": "MIT",
+    "key_innovations": [
+      "调用 API",
+      "甚至从 StackOverflow 复制代码片段"
+    ],
+    "summary": "OpenHands 是一个 **AI 软件开发智能体平台**，致力于让 AI 像人类开发者一样完成软件工程任务。它的核心理念是 **\"Code Less, Make More\"**——让开发者用更少的代码做更多的事。 OpenHands 的",
+    "file": "reports/088.md"
+  },
+  {
+    "id": "089",
+    "title": "Browser",
+    "url": "https://github.com/browser-use/browser-use",
+    "organization": "Magnus Müller & Gregor Žunič（ETH Zurich",
+    "stars": 79000,
+    "category": "浏览器代理",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Claude",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Browser-Use 是一个开源的 Python 库，让 AI Agent 能够控制浏览器完成各种网页操作",
+      "它用自然语言指令替代了传统的 Selenium/Playwright 脚本，把\"找按钮然后点击\"这种脆弱的 XPath 匹配变成了 AI 理解页面后自主决策",
+      "简单说：**你告诉 AI 要做什么，AI 自己操作浏览器完成"
+    ],
+    "summary": "Browser-Use 是一个开源的 Python 库，让 AI Agent 能够控制浏览器完成各种网页操作。它用自然语言指令替代了传统的 Selenium/Playwright 脚本，把\"找按钮然后点击\"这种脆弱的 XPath 匹配变成了",
+    "file": "reports/089.md"
+  },
+  {
+    "id": "090",
+    "title": "GitHub Stars",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "organization": "microsoft",
+    "stars": 2025,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "MCP",
+      "RAG",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "Semantic Kernel 是微软开源的轻量级 AI Agent 开发工具包（SDK），让开发者能够轻松地将大语言模型（LLM）集成到现有应用中，并构建单 Agent 或多 Agent 系统",
+      "它的核心定位是**企业级、可扩展、模型无关**的 Agent 框架，既适合快速原型也适合生产部署"
+    ],
+    "summary": "Semantic Kernel 是微软开源的轻量级 AI Agent 开发工具包（SDK），让开发者能够轻松地将大语言模型（LLM）集成到现有应用中，并构建单 Agent 或多 Agent 系统。 它的核心定位是**企业级、可扩展、模型无关",
+    "file": "reports/090.md"
+  },
+  {
+    "id": "091",
+    "title": "CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "crewAIInc",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "LangChain",
+      "LangGraph",
+      "知识库",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "CrewAI",
+      "Crews",
+      "Flows"
+    ],
+    "summary": "https://github.com/crewAIInc/crewAI",
+    "file": "reports/091.md"
+  },
+  {
+    "id": "092",
+    "title": "一、项目简介",
+    "url": "https://github.com/agiresearch/AIOS",
+    "organization": "将大语言模型嵌入操作系统核心，让操作系统成为一个\"有灵魂\"的系统",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Memory"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "LLM Agent 操作系统",
+      "LLM 资源分配不合理"
+    ],
+    "summary": "AIOS 是由 agiresearch（来自加州大学伯克利分校研究团队）开源的 **LLM Agent 操作系统**。该项目提出一个革命性的理念：将大语言模型嵌入操作系统核心，让操作系统成为一个\"有灵魂\"的系统。 简单来说，AIOS 想要解",
+    "file": "reports/092.md"
+  },
+  {
+    "id": "093",
+    "title": "名：EvoAgentX — 自进化 AI Agent 框架",
+    "url": "https://github.com/EvoAgentX/EvoAgentX",
+    "organization": "桐桐 | 日期：2026-04-02",
+    "stars": 1000,
+    "category": "评测基准",
+    "score": 6.5,
+    "tags": [
+      "Memory",
+      "MEMORY",
+      "memory"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "综述论文：",
+      "让 Agent 不只是工作，还能自我进化",
+      "自动构建（Autoconstruction）："
+    ],
+    "summary": "EvoAgentX 的核心理念是**让 Agent 不只是工作，还能自我进化**。整体架构围绕三个核心循环展开：",
+    "file": "reports/093.md"
+  },
+  {
+    "id": "094",
+    "title": "基本信息",
+    "url": "https://github.com/simstudioai/sim",
+    "organization": "simstudioai",
+    "stars": 24600,
+    "category": "编码框架",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "RAG",
+      "React"
+    ],
+    "language": "TypeScript",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "微服务架构",
+      "工作流执行流水线："
+    ],
+    "summary": "** 可视化 AI Agent 工作流构建与部署平台",
+    "file": "reports/094.md"
+  },
+  {
+    "id": "095",
+    "title": "基本信息",
+    "url": "https://github.com/EvoAgentX/EvoAgentX",
+    "organization": "EvoAgentX",
+    "stars": 1000,
+    "category": "多智能体",
+    "score": 6.5,
+    "tags": [
+      "LLM",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "EvoAgentX 不是让你手写 Agent 工作流——而是让 AI 自己设计、自己跑、自己进化，你只需要给一个目标。",
+      "手动配置工作流"
+    ],
+    "summary": "** 自动化构建、执行与进化优化多智能体工作流的开源框架",
+    "file": "reports/095.md"
+  },
+  {
+    "id": "096",
+    "title": "基本信息",
+    "url": "https://github.com/mem0ai/mem0",
+    "organization": "mem0ai",
+    "stars": 48000,
+    "category": "其他",
+    "score": 9.0,
+    "tags": [
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "\"中间丢失\"效应",
+      "无差别存储"
+    ],
+    "summary": "** AI Agent 的通用智能记忆层——让大模型从\"金鱼\"升级为\"有记忆的伙伴\"",
+    "file": "reports/096.md"
+  },
+  {
+    "id": "097",
+    "title": "核心模块",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "MCP",
+      "LangChain",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "一句话简介：",
+      "用代码思考"
+    ],
+    "summary": "** HuggingFace 出品的极简 Agent 框架，核心理念是让 LLM **用代码思考**而非 JSON，以 ~1000 行核心代码实现高性能 Agent。",
+    "file": "reports/097.md"
+  },
+  {
+    "id": "098",
+    "title": "核心模块",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "MCP",
+      "mcp",
+      "gpt"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "OpenAI Agents SDK",
+      "Agent 核心"
+    ],
+    "summary": "AI Agent 学习报告 #098的AI Agent研究分析",
+    "file": "reports/098.md"
+  },
+  {
+    "id": "099",
+    "title": "基本信息",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "FoundationAgents",
+    "stars": 61900,
+    "category": "多智能体",
+    "score": 9.5,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "** 给 LLM 分配不同角色（产品经理、架构师、工程师等），模拟一家完整的软件公司，通过标准化作业流程（SOP）将一行自然语言需求变成完整的项目代码仓库。",
+    "file": "reports/099.md"
+  },
+  {
+    "id": "100",
+    "title": "基本信息",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "langchain-ai",
+    "stars": 25000,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "一句话简介",
+      "StateGraph（状态图）",
+      "\"我们不知道 AI 的未来长什么样，所以假设越少越好\""
+    ],
+    "summary": "LangChain 团队打造的低抽象、生产级 AI Agent 图执行框架，以 **StateGraph（状态图）** 为核心，将 Agent 工作流建模为带循环的有向图，解决 LLM Agent 的延迟、可靠性、非确定性三大生产难题。",
+    "file": "reports/100.md"
+  },
+  {
+    "id": "101",
+    "title": "核心模块",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "crewAIInc",
+    "stars": 42000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LangChain",
+      "LLM",
+      "memory",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "一句话简介："
+    ],
+    "summary": "** 一个从零构建的轻量级 Python 多智能体协作框架，通过角色扮演（Role-Playing）和任务编排让多个 AI Agent 自主协同完成复杂任务，完全独立于 LangChain 等其他框架。",
+    "file": "reports/101.md"
+  },
+  {
+    "id": "102",
+    "title": "三层分层架构",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 40000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "OpenAI",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "一句话简介："
+    ],
+    "summary": "** 微软开源的多智能体对话框架，支持事件驱动的 Agent 编排、分布式运行时和跨语言（Python/.NET）协作，是当前最成熟的企业级多 Agent 框架之一。",
+    "file": "reports/102.md"
+  },
+  {
+    "id": "103",
+    "title": "整体架构演进",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "organization": "OpenHands",
+    "stars": 100,
+    "category": "编码框架",
+    "score": 6.5,
+    "tags": [
+      "LLM",
+      "MCP",
+      "llm",
+      "claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "OpenHands",
+      "Event Sourced State Management"
+    ],
+    "summary": "OpenHands 经历了从 V0（单体架构）到 V1（模块化 SDK）的重大重构：",
+    "file": "reports/103.md"
+  },
+  {
+    "id": "104",
+    "title": "核心模块分层",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "organization": "agentscope-ai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "OpenAI",
+      "Anthropic",
+      "ReAct",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "AgentScope"
+    ],
+    "summary": "AI Agent 开源项目学习报告 #104的AI Agent研究分析",
+    "file": "reports/104.md"
+  },
+  {
+    "id": "105",
+    "title": "核心模块",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "camel-ai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "CoT"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "CAMEL",
+      "Agent Scaling Laws",
+      "分层模块化架构"
+    ],
+    "summary": "CAMEL 采用 **分层模块化架构**，核心代码位于 `camel/` 包下：",
+    "file": "reports/105.md"
+  },
+  {
+    "id": "106",
+    "title": "整体架构分层",
+    "url": "https://github.com/langgenius/dify",
+    "organization": "langgenius",
+    "stars": 95000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "RAG",
+      "React",
+      "TypeScript",
+      "Flask"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "一句话简介",
+      "前后端分离 + 微服务化"
+    ],
+    "summary": "Dify 采用经典的**前后端分离 + 微服务化**架构，核心分为四层：",
+    "file": "reports/106.md"
+  },
+  {
+    "id": "107",
+    "title": "核心模块",
+    "url": "https://github.com/i-am-bee/beeai-framework",
+    "organization": "i-am-bee",
+    "stars": 4,
+    "category": "工具链",
+    "score": 6.5,
+    "tags": [
+      "MCP",
+      "TypeScript",
+      "ReAct",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "BeeAI Framework"
+    ],
+    "summary": "AI Agent 开源项目学习报告 #107的AI Agent研究分析",
+    "file": "reports/107.md"
+  },
+  {
+    "id": "108",
+    "title": "三层架构总览",
+    "url": "https://github.com/agno-agi/agno",
+    "organization": "agno-agi",
+    "stars": 20000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "anthropic",
+      "Claude",
+      "FastAPI",
+      "知识库",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "一句话简介",
+      "Framework → Runtime → Control Plane"
+    ],
+    "summary": "长对话的摘要表示，防止上下文爆炸 |",
+    "file": "reports/108.md"
+  },
+  {
+    "id": "109",
+    "title": "核心模块",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "pydantic",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "MCP",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "PydanticAI"
+    ],
+    "summary": "str = Field(description='分析摘要')",
+    "file": "reports/109.md"
+  },
+  {
+    "id": "110",
+    "title": "核心模块（6 大子系统）",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "camel-ai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "VectorDB",
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "CAMEL-AI"
+    ],
+    "summary": "```\n┌─────────────────────────────────────────────────────┐\n│                    CAMEL Framework                   │\n├──",
+    "file": "reports/110.md"
+  },
+  {
+    "id": "111",
+    "title": "整体架构：六大核心模块 + 统一运行时",
+    "url": "https://github.com/mastra-ai/mastra",
+    "organization": "mastra-ai",
+    "stars": 22000,
+    "category": "工具链",
+    "score": 8.5,
+    "tags": [
+      "RAG",
+      "MCP",
+      "OpenAI",
+      "Anthropic",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "一句话简介",
+      "npm 周下载量"
+    ],
+    "summary": "由 Gatsby 原班团队打造的 TypeScript 原生 AI Agent 框架，从原型到生产级的全栈 Agent 解决方案，支持 Agent、Workflow、RAG、Memory、Evals、MCP 六大核心模块。",
+    "file": "reports/111.md"
+  },
+  {
+    "id": "112",
+    "title": "核心哲学：Less is More",
+    "url": "https://github.com/openai/swarm",
+    "organization": "openai",
+    "stars": 22000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "gpt"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "一句话简介",
+      "把多 Agent 编排的复杂度压到最低"
+    ],
+    "summary": "- Handoff 原语比图编排更直觉",
+    "file": "reports/112.md"
+  },
+  {
+    "id": "113",
+    "title": "整体架构（六大核心模块）",
+    "url": "https://github.com/browser-use/browser-use",
+    "organization": "browser-use",
+    "stars": 79000,
+    "category": "浏览器代理",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "ReAct",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "一句话简介"
+    ],
+    "summary": "让 AI Agent 自主操控浏览器完成复杂网页任务的 Python 框架，在 WebVoyager 基准测试上达到 89.1% 成功率，是目前最流行的开源浏览器自动化 Agent 框架。",
+    "file": "reports/113.md"
+  },
+  {
+    "id": "114",
+    "title": "整体架构：Monorepo + 分层引擎 + 实时协作",
+    "url": "https://github.com/simstudioai/sim",
+    "organization": "simstudioai",
+    "stars": 22700,
+    "category": "编码框架",
+    "score": 8.5,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "一句话简介",
+      "Turborepo Monorepo"
+    ],
+    "summary": "Sim 采用 **Turborepo Monorepo** 管理，核心分为以下层次：",
+    "file": "reports/114.md"
+  },
+  {
+    "id": "115",
+    "title": "核心模块",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "letta-ai",
+    "stars": 35000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "GPT",
+      "LLM",
+      "TypeScript",
+      "FastAPI",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "一句话简介：",
+      "LLM 的上下文窗口就像操作系统的物理内存一样有限，可以用虚拟内存管理的思路来解决"
+    ],
+    "summary": "** 受操作系统内存分层启发，让 LLM Agent 拥有\"无限上下文窗口\"的有状态智能体框架——Agent 可以自主管理自己的记忆，在固定上下文限制内实现长期学习和自我进化。",
+    "file": "reports/115.md"
+  },
+  {
+    "id": "116",
+    "title": "整体架构：Harness 而非 Framework",
+    "url": "https://github.com/bytedance/deer-flow",
+    "organization": "bytedance",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "LangChain",
+      "langgraph",
+      "MCP",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "一句话简介",
+      "运行时基础设施",
+      "开箱即用的 Harness"
+    ],
+    "summary": "\"...\", \"updatedAt\": \"...\"},",
+    "file": "reports/116.md"
+  },
+  {
+    "id": "117",
+    "title": "Report #117",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "organization": "stanfordnlp",
+    "stars": 20000,
+    "category": "其他",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "PyTorch"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "LLM 应用开发应该像 PyTorch 训练神经网络一样"
+    ],
+    "summary": "一句话简介 DSPy（Declarative Self-improving Python）是斯坦福 NLP 团队推出的「编程而非提示词」框架——用声明式 Python 代码替代手工 prompt 工程，通过自动优化器（Teleprompte",
+    "file": "reports/117.md"
+  },
+  {
+    "id": "118",
+    "title": "GitHub",
+    "url": "https://github.com/elizaOS/eliza",
+    "organization": "elizaOS",
+    "stars": 100000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "TypeScript",
+      "React",
+      "typescript",
+      "Memory"
+    ],
+    "language": "TypeScript",
+    "license": "MIT",
+    "key_innovations": [
+      "一句话简介",
+      "Monorepo + Plugin-First"
+    ],
+    "summary": "Eliza 采用 **Monorepo + Plugin-First** 架构，核心包结构：",
+    "file": "reports/118.md"
+  },
+  {
+    "id": "119",
+    "title": "项目状态：",
+    "url": "https://github.com/run-llama/workflows-py",
+    "organization": "run-llama",
+    "stars": 36000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "项目状态：",
+      "一句话简介",
+      "DAG（有向无环图）编排模式的反思"
+    ],
+    "summary": "AI Agent 学习报告 #119的AI Agent研究分析",
+    "file": "reports/119.md"
+  },
+  {
+    "id": "120",
+    "title": "整体架构：事件驱动的异步 Agent 运行时",
+    "url": "https://github.com/google/adk-python",
+    "organization": "google",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "LLM",
+      "TypeScript",
+      "Go",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "一句话简介"
+    ],
+    "summary": "```\n┌─────────────────────────────────────────────────────────┐\n│                    ADK Application                    ",
+    "file": "reports/120.md"
+  },
+  {
+    "id": "121",
+    "title": "License",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "organization": "microsoft",
+    "stars": 22000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "轻量级、模型无关的 AI Agent 编排 SDK"
+    ],
+    "summary": "不同于 LangChain 的「链式编排」或 CrewAI 的「角色扮演」，SK 的核心理念是 **\"LLM 作为 Kernel 中的一个 Service，与 native code 平等协作\"**——更贴近微软生态的企业集成场景。",
+    "file": "reports/121.md"
+  },
+  {
+    "id": "122",
+    "title": "核心哲学：一切皆组件，组件组 Pipeline",
+    "url": "https://github.com/deepset-ai/haystack",
+    "organization": "deepset-ai",
+    "stars": 18000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "一句话简介:"
+    ],
+    "summary": "** deepset 出品的开源 AI 编排框架，以 **Pipeline DAG（有向无环/有环图）** 为核心抽象，用组件化、可序列化的方式构建生产级 LLM 应用和 AI Agent。",
+    "file": "reports/122.md"
+  },
+  {
+    "id": "123",
+    "title": "Open Interpreter",
+    "url": "https://github.com/OpenInterpreter/open-interpreter",
+    "organization": "OpenInterpreter",
+    "stars": 55000,
+    "category": "其他",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "直接执行代码",
+      "本地化、无限制、全功能替代品"
+    ],
+    "summary": "一句话简介 Open Interpreter 是一个让 LLM 在用户本地机器上**直接执行代码**（Python/JS/Shell 等）的开源 Agent 框架——本质上是 OpenAI Code Interpreter 的**本地化、无",
+    "file": "reports/123.md"
+  },
+  {
+    "id": "124",
+    "title": "项目地址：",
+    "url": "https://github.com/SWE-agent/mini-swe-agent",
+    "organization": "Princeton NLP + Stanford",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "软件工程自主修复 Agent",
+      "Mini-SWE-Agent"
+    ],
+    "summary": "一句话简介 SWE-agent 是普林斯顿大学提出的**软件工程自主修复 Agent**，能读取 GitHub Issue 并自动在真实代码仓库中定位和修复 Bug；其精简版 **Mini-SWE-Agent** 仅用 ~100 行 Pyt",
+    "file": "reports/124.md"
+  },
+  {
+    "id": "125",
+    "title": "项目地址：",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "organization": "OpenHands",
+    "stars": 65000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "自主编程 Agent 平台"
+    ],
+    "summary": "一句话简介 OpenHands（原名 OpenDevin）是目前 GitHub 星标最高的开源 **自主编程 Agent 平台**——它让 LLM 像一个真正的软件工程师一样，在沙箱环境中读写代码、运行命令、操作浏览器、调试 Bug，完成从",
+    "file": "reports/125.md"
+  },
+  {
+    "id": "126",
+    "title": "核心模块",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "多个自治 Agent 组成团队，通过角色分工和动态任务委派来协作解决问题。Age",
+    "stars": 30000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LangChain",
+      "llm",
+      "LLM",
+      "memory"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "轻量级、高性能的 Python 多智能体协作框架",
+      "角色扮演式的自主 AI Agent 协作"
+    ],
+    "summary": "AI Agent 开源项目学习报告 #126的AI Agent研究分析",
+    "file": "reports/126.md"
+  },
+  {
+    "id": "127",
+    "title": "Report #127",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "langchain-ai",
+    "stars": 20000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "有状态、长运行、多角色的 LLM 应用程序",
+      "循环图（Cyclic Graph）"
+    ],
+    "summary": "它不是开箱即用的高层框架（如 CrewAI），而是一个提供底层基础设施的编排引擎。开发者可以用它构建从简单的单 Agent 工具调用到复杂的多 Agent 协作系统。其核心理念深受 Google Pregel 图计算模型和 Apache B",
+    "file": "reports/127.md"
+  },
+  {
+    "id": "128",
+    "title": "一、项目简介",
+    "url": "https://github.com/geekan/MetaGPT",
+    "organization": "geekan",
+    "stars": 45000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "LangGraph",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "AFlow",
+      "多智能体协作框架"
+    ],
+    "summary": "MetaGPT 是由 DeepWisdom（深维智信）开源的**多智能体协作框架**，核心理念可以用一个简洁的公式概括： > **Code = SOP(Team)** 即：将人类的标准操作流程（Standard Operating Proc",
+    "file": "reports/128.md"
+  },
+  {
+    "id": "129",
+    "title": "项目地址：",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "organization": "Significant-Gravitas",
+    "stars": 183000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "开山鼻祖级项目",
+      "AI Agent 平台（AutoGPT Platform）"
+    ],
+    "summary": "** 让每个人都能创建、部署和管理持续运行的 AI Agent 来自动化复杂工作流。不只是构建单个 Agent，而是构建**多 Agent 协作生态系统**。",
+    "file": "reports/129.md"
+  },
+  {
+    "id": "130",
+    "title": "一、项目简介",
+    "url": "https://github.com/langgenius/dify",
+    "organization": "langgenius",
+    "stars": 55000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "LangGraph",
+      "RAG",
+      "React",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "开源的 LLM 应用开发平台",
+      "Do It For You"
+    ],
+    "summary": "通过可视化界面，让非程序员也能构建从简单聊天机器人到复杂多 Agent 工作流的完整 AI 应用。",
+    "file": "reports/130.md"
+  },
+  {
+    "id": "131",
+    "title": "项目地址：",
+    "url": "https://github.com/SmolAgents/smolagents",
+    "organization": "SmolAgents",
+    "stars": 8000,
+    "category": "多智能体",
+    "score": 7.5,
+    "tags": [
+      "LLM",
+      "LangGraph",
+      "LangChain",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "\"Code as Policy\"（代码即策略）",
+      "Agent → Code Interpreter → Tools → Output"
+    ],
+    "summary": "SmolAgents 是 HuggingFace 于 2025 年初发布的轻量级 AI Agent 框架。它的核心理念极其鲜明——**\"Code as Policy\"（代码即策略）**：让 LLM 通过生成和执行 Python 代码来完成所",
+    "file": "reports/131.md"
+  },
+  {
+    "id": "132",
+    "title": "Letta Code",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "letta-ai",
+    "stars": 35000,
+    "category": "其他",
+    "score": 9.0,
+    "tags": [
+      "GPT",
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "上下文窗口限制",
+      "\"有状态的 Agent 平台\"——让 AI 拥有可学习、可持续进化的长期记忆系统",
+      "Letta Code"
+    ],
+    "summary": "Letta（前身为 MemGPT，Memory-GPT）是由 UC Berkeley 研究团队发起的开源 AI Agent 框架，核心使命是解决 LLM 的**上下文窗口限制**问题。2024 年底项目从学术研究（MemGPT）升级为商业化",
+    "file": "reports/132.md"
+  },
+  {
+    "id": "133",
+    "title": "分层架构（Layered Architecture）",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 40000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LangGraph"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "让多个Agent通过对话协作完成复杂任务",
+      "AutoGen Studio"
+    ],
+    "summary": "AutoGen 是微软研究院 AI Frontiers Lab 出品的开源多Agent编程框架，旨在简化AI Agent系统的构建与编排。它的核心理念是**让多个Agent通过对话协作完成复杂任务**——无论是自主运行还是与人类协同工作。",
+    "file": "reports/133.md"
+  },
+  {
+    "id": "134",
+    "title": "整体架构分层",
+    "url": "https://github.com/agno-agi/agno",
+    "organization": "agno-agi",
+    "stars": 25000,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "LangChain",
+      "RAG",
+      "LangGraph",
+      "FastAPI",
+      "知识库"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "用最少的代码构建具有记忆、知识库、工具调用和护栏能力的智能 Agent",
+      "三层架构设计"
+    ],
+    "summary": "** 对长对话的压缩表示，防止上下文溢出",
+    "file": "reports/134.md"
+  },
+  {
+    "id": "135",
+    "title": "Report #135",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "camel-ai",
+    "stars": 22000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "LangGraph",
+      "CoT"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "全球首个 LLM 多智能体框架",
+      "探索 Agent 的扩展定律（Scaling Laws of Agents）"
+    ],
+    "summary": "CAMEL（Collective Agent Mind Evolution Learning，最初全称为 Communicative Agents for \"Mind\" Exploration of Large Scale Language",
+    "file": "reports/135.md"
+  },
+  {
+    "id": "136",
+    "title": "Griptape Nodes",
+    "url": "https://github.com/griptape-ai/griptape",
+    "organization": "griptape-ai",
+    "stars": 18000,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "LangChain",
+      "OpenAI",
+      "Anthropic",
+      "LLM",
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "官网文档：",
+      "在\"可预测性\"和\"创造性\"两个维度上同时发力",
+      "Structure（结构）+ Task（任务）+ Ruleset（规则集）"
+    ],
+    "summary": "Griptape 是一个基于 Python 的模块化 AI Agent 框架，由 Griptape 公司（原 Grip）开源维护。它的核心设计理念非常独特——**在\"可预测性\"和\"创造性\"两个维度上同时发力**，让开发者既能构建确定性的数据",
+    "file": "reports/136.md"
+  },
+  {
+    "id": "137",
+    "title": "核心模块",
+    "url": "https://github.com/paul-gauthier/aider",
+    "organization": "paul-gauthier",
+    "stars": 4,
+    "category": "编码框架",
+    "score": 6.5,
+    "tags": [
+      "LLM",
+      "Claude",
+      "GPT",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Aider 是一款终端中的 AI 结对编程工具，由 Paul Gauthier 开发",
+      "它让开发者直接在本地 git 仓库中与 LLM（如 Claude、GPT-4o、DeepSeek 等）结对编程——你用自然语言描述需求，AI 直接编辑代码文件，所有变更都通过 git diff 管理和追踪",
+      "与 Cursor、Copilot 这类 IDE 插件不同，Aider 是**命令行优先（CLI-first）**的设计哲学，不依赖任何 IDE，可以在任何终端环境运行"
+    ],
+    "summary": "Aider 是一款终端中的 AI 结对编程工具，由 Paul Gauthier 开发。它让开发者直接在本地 git 仓库中与 LLM（如 Claude、GPT-4o、DeepSeek 等）结对编程——你用自然语言描述需求，AI 直接编辑代码",
+    "file": "reports/137.md"
+  },
+  {
+    "id": "138",
+    "title": "核心模块",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "Pydantic 团队（Samuel Colvin 等，FastAPI/P",
+    "stars": 25000,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "LangChain",
+      "anthropic",
+      "claude"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Pydantic AI 是由 Pydantic 团队（也就是 FastAPI 和 Pydantic Validation 的核心开发者）打造的生成式 AI Agent 框架",
+      "它的设计理念非常明确——**把 FastAPI 的开发体验带到 GenAI Agent 开发中",
+      "这个定位本身就很有意思"
+    ],
+    "summary": "Pydantic AI 是由 Pydantic 团队（也就是 FastAPI 和 Pydantic Validation 的核心开发者）打造的生成式 AI Agent 框架。它的设计理念非常明确——**把 FastAPI 的开发体验带到 G",
+    "file": "reports/138.md"
+  },
+  {
+    "id": "139",
+    "title": "Workflows",
+    "url": "https://github.com/run-llama/llama_index",
+    "organization": "run-llama",
+    "stars": 37000,
+    "category": "运行时框架",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "RAG",
+      "Embedding",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "数据为中心的 AI Agent 框架",
+      "RAG（检索增强生成）",
+      "Workflows"
+    ],
+    "summary": "**节点解析（Node Parser）的设计哲学：** 不是简单按字符数切分文本，而是提供了语义感知的分块策略：",
+    "file": "reports/139.md"
+  },
+  {
+    "id": "140",
+    "title": "Report #140",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "基于角色的自主 Agent 协作，Agent 之间可以动态委派任务、自主决策，适",
+    "stars": 25000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LangChain",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "CrewAI 是一个开源的 **多智能体协作编排框架**（Multi-Agent Orchestration Framework），用 Python 从零构建，完全独立于 LangChain 或其他 Agent 框架",
+      "它的核心理念非常直观——把 AI Agent 想象成一个\"团队\"（Crew），每个 Agent 扮演特定角色（Role），通过任务（Task）协作完成复杂目标"
+    ],
+    "summary": "CrewAI 是一个开源的 **多智能体协作编排框架**（Multi-Agent Orchestration Framework），用 Python 从零构建，完全独立于 LangChain 或其他 Agent 框架。它的核心理念非常直观—",
+    "file": "reports/140.md"
+  },
+  {
+    "id": "141",
+    "title": "从 V0 到 V1 的架构演进",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "organization": "OpenHands",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "OpenHands 是目前开源社区中最受欢迎的 AI 软件开发 Agent 平台之一，前身为 OpenDevin，由 CMU 团队发起，现已发展为 All-Hands-AI 社区主导的大型开源项目",
+      "它旨在打造一个\"AI 驱动的软件开发者\"，能够像人类程序员一样自主完成编码、调试、测试、运行等完整开发流程",
+      "项目提供 SDK、CLI、本地 GUI 和云端服务四种使用方式，支持从个人实验到企业级部署的全场景覆盖"
+    ],
+    "summary": "OpenHands 是目前开源社区中最受欢迎的 AI 软件开发 Agent 平台之一，前身为 OpenDevin，由 CMU 团队发起，现已发展为 All-Hands-AI 社区主导的大型开源项目。它旨在打造一个\"AI 驱动的软件开发者\"，",
+    "file": "reports/141.md"
+  },
+  {
+    "id": "142",
+    "title": "核心模块（Crates 结构）",
+    "url": "https://github.com/rustformers/rig",
+    "organization": "rustformers",
+    "stars": 4000,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "LangGraph",
+      "GPT",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "Apache-2.0",
+    "key_innovations": [
+      "在 Python 主导的 AI Agent 框架世界里（LangChain、CrewAI、LangGraph 等），Rig 几乎是唯一一个用系统级语言构建的生产",
+      "它不是简单的\"GPT 封装\"，而是一套完整的基础设施——从模型 Provider 抽象、Tool 定义与执行、Vector Store 集成，到 Pipelin"
+    ],
+    "summary": "Rig 是一个用 Rust 编写的模块化 LLM 应用开发框架，专注于构建 AI Agent 和 LLM 驱动的应用。** 在 Python 主导的 AI Agent 框架世界里（LangChain、CrewAI、LangGraph 等），",
+    "file": "reports/142.md"
+  },
+  {
+    "id": "143",
+    "title": "Report #143",
+    "url": "https://github.com/langgenius/dify",
+    "organization": "langgenius",
+    "stars": 95000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "RAG",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "\"LLM 应用开发的瑞士军刀\"",
+      "可视化的、面向产品经理和业务开发者的一站式平台",
+      "微服务架构"
+    ],
+    "summary": "如何通过合理的抽象层次让系统既灵活又可控，如何将复杂的 AI 流程转化为可编排的数据结构，以及如何在不牺牲易用性的前提下保持系统的可扩展性。这些是任何 AI Agent 系统都需要面对的核心问题，而 Dify 给出了相当漂亮的答案。",
+    "file": "reports/143.md"
+  },
+  {
+    "id": "144",
+    "title": "整体架构：Preprompt 驱动的两阶段流水线",
+    "url": "https://github.com/AntonOsika/gpt-engineer",
+    "organization": "AntonOsika",
+    "stars": 52000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "GPT",
+      "gpt"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "GPT Engineer 是最早的「AI 软件工程师」开源项目之一，也是当前最流行的自然语言代码生成 CLI 工具",
+      "它的核心理念极其简洁：用户在一个文件夹里放一个 `prompt` 文件，用自然语言描述想要什么软件，然后运行 `gpte projects/my-app`，AI 就会自动生成完整的项目代码库",
+      "与 Cursor、Copilot 这类「代码补全/辅助编辑」工具不同，GPT Engineer 是真正的**端到端自主编程**——从需求到可运行代码，中间不需要人工干预"
+    ],
+    "summary": "GPT Engineer 是最早的「AI 软件工程师」开源项目之一，也是当前最流行的自然语言代码生成 CLI 工具。它的核心理念极其简洁：用户在一个文件夹里放一个 `prompt` 文件，用自然语言描述想要什么软件，然后运行 `gpte p",
+    "file": "reports/144.md"
+  },
+  {
+    "id": "145",
+    "title": "Report #145",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "`RolePlaying`：角色扮演模式，两个Agent分别扮演不同角色协作",
+    "stars": 25000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "当Agent数量、交互复杂度、任务难度持续增长时，多智能体系统的能力如何演化？涌现行为遵循什么规律？",
+    "file": "reports/145.md"
+  },
+  {
+    "id": "146",
+    "title": "核心模块",
+    "url": "https://github.com/openai/swarm",
+    "organization": "openai",
+    "stars": 22000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LangChain"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "Swarm 是由 OpenAI 解决方案团队开发的**轻量级多智能体协作框架**，定位为教育性质的项目，帮助开发者探索智能体编排的核心原理。它于 2024 年底发布后迅速获得社区关注，GitHub Stars 突破 2 万。",
+    "file": "reports/146.md"
+  },
+  {
+    "id": "147",
+    "title": "核心抽象层（四大基石）",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "DeepWisdom（深维智信），由 Sirui Hong 等人主导，Jürge",
+    "stars": 45000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "MetaGPT 是一个多智能体协作框架，核心理念是 **\"Code = SOP(Team)\"**——将标准作业程序（SOP）编码到由 LLM 组成的智能体团队中",
+      "用户只需输入一行自然语言需求（如\"创建一个 2048 游戏\"），MetaGPT 就会自动启动一个完整的虚拟软件公司，内部包含产品经理、架构师、项目经理、工程师、QA 等角色，各司其职地完成从需求分析、竞品调研、API 设计、数据结构定义到代码编写、测试的全流程，最终输出完整的代码仓库",
+      "与大多数 Agent 框架只关注单智能体能力或简单的工具调用不同，MetaGPT 的独特之处在于它将**真实软件开发流程的 SOP 直接映射为多 Agent 协作协议"
+    ],
+    "summary": "MetaGPT 是一个多智能体协作框架，核心理念是 **\"Code = SOP(Team)\"**——将标准作业程序（SOP）编码到由 LLM 组成的智能体团队中。用户只需输入一行自然语言需求（如\"创建一个 2048 游戏\"），MetaGPT",
+    "file": "reports/147.md"
+  },
+  {
+    "id": "148",
+    "title": "Report #148",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "langchain-ai",
+    "stars": 20000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LangChain"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "低级别编排框架（Orchestration Framework）",
+      "长运行、有状态的 AI Agent 工作流"
+    ],
+    "summary": "LangGraph 是由 LangChain 团队开发的**低级别编排框架（Orchestration Framework）**，专门用于构建、管理和部署**长运行、有状态的 AI Agent 工作流**。它不是 LangChain 的简单",
+    "file": "reports/148.md"
+  },
+  {
+    "id": "149",
+    "title": "整体分层架构",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "Microsoft Research AI Frontiers",
+    "stars": 45000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Microsoft AutoGen 是微软研究院于2023年秋季推出的开源多智能体 AI 编程框架",
+      "它的核心使命是让开发者能够轻松构建**多个 AI Agent 协作完成复杂任务**的系统——每个 Agent 扮演不同角色、拥有不同能力，通过消息传递协同工作",
+      "AutoGen 在发布后迅速成为 AI Agent 领域最具影响力的开源框架之一，被广泛应用于业务流程自动化、营销、金融安全、代码生成等众多场景"
+    ],
+    "summary": "Microsoft AutoGen 是微软研究院于2023年秋季推出的开源多智能体 AI 编程框架。它的核心使命是让开发者能够轻松构建**多个 AI Agent 协作完成复杂任务**的系统——每个 Agent 扮演不同角色、拥有不同能力，通",
+    "file": "reports/149.md"
+  },
+  {
+    "id": "150",
+    "title": "Stars",
+    "url": "https://github.com/agno-agi/phida",
+    "organization": "Framework（构建层）、Runtime（运行时）、Control Plan",
+    "stars": 30000,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "RAG",
+      "openai",
+      "OpenAI",
+      "anthropic",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "Framework（构建层）、Runtime（运行时）、Control Plane（控制平面/AgentOS UI）。这一升级标志着项目从开发工具向生产级基础设施的跨越。",
+    "file": "reports/150.md"
+  },
+  {
+    "id": "151",
+    "title": "Report #151",
+    "url": "https://github.com/mem0ai/mem0",
+    "organization": "mem0ai",
+    "stars": 25000,
+    "category": "其他",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "RAG",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Apache 2.0 |",
+      "通用记忆层（Universal Memory Layer）",
+      "让 AI 真正记住用户，而不是每次对话都从零开始"
+    ],
+    "summary": "异步化维护、写时冲突解决、分层存储、选择性提取。这些原则可以直接用来改进楠楠自己的记忆架构。",
+    "file": "reports/151.md"
+  },
+  {
+    "id": "152",
+    "title": "核心模块",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "DeepWisdom（深维智信），后迁移至 FoundationAgent",
+    "stars": 45000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "GPT",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "MetaGPT 是一个基于大语言模型的多智能体协作框架，其核心理念是将人类软件团队的标准操作流程（Standard Operating Procedures, SOPs）编码进多智能体系统中",
+      "用户只需输入一行自然语言需求，MetaGPT 就能模拟一个完整的虚拟软件公司——包含产品经理、架构师、项目经理、工程师和测试工程师五个角色——自动输出用户故事、竞品分析、需求文档（PRD）、数据结构设计、API 接口定义、任务列表以及可运行的代码",
+      "与 AutoGen 的自由对话式协作或 CrewAI 的角色扮演不同，MetaGPT 最大的特点是**强制结构化输出"
+    ],
+    "summary": "MetaGPT 是一个基于大语言模型的多智能体协作框架，其核心理念是将人类软件团队的标准操作流程（Standard Operating Procedures, SOPs）编码进多智能体系统中。用户只需输入一行自然语言需求，MetaGPT 就",
+    "file": "reports/152.md"
+  },
+  {
+    "id": "153",
+    "title": "核心模块",
+    "url": "https://github.com/livekit/agents",
+    "organization": "LiveKit（WebRTC 实时通信基础设施公司）",
+    "stars": 9000,
+    "category": "浏览器代理",
+    "score": 7.5,
+    "tags": [
+      "OpenAI",
+      "TypeScript",
+      "多模态"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "的开源框架。它不是又一个\"文本对话 + 工具调用\"的 Agent 框架，而是专门为**语音优先、低延迟、多模态**的对话场景设计的——让 AI 能像人一样听、说"
+    ],
+    "summary": "**让开发者用最少的代码构建生产级语音 Agent**——无论是客服机器人、电话销售助手、语音导航系统，还是带视觉能力的多模态 Avatar。",
+    "file": "reports/153.md"
+  },
+  {
+    "id": "154",
+    "title": "三层架构总览",
+    "url": "https://github.com/vercel/ai",
+    "organization": "vercel",
+    "stars": 78000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "OpenAI",
+      "Anthropic",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "— 一套 API 对接 OpenAI、Anthropic、Google、Mistral、本地模型等数十家提供商",
+      "— 从底层到 UI 层全面围绕 streaming 设计，实现真正的实时交互体验",
+      "— React、Svelte、Vue、Solid 共享同一套核心逻辑，API 风格高度一致"
+    ],
+    "summary": "1. **统一多模型接口** — 一套 API 对接 OpenAI、Anthropic、Google、Mistral、本地模型等数十家提供商",
+    "file": "reports/154.md"
+  },
+  {
+    "id": "155",
+    "title": "Stars",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 45000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Core API**：消息传递、事件驱动 Agent、本地/分布式运行时",
+      "AgentChat API**：面向快速原型的高级 API，支持双 Agent 对话、群组聊天等常见模式",
+      "Extensions API**：LLM 客户端实现（OpenAI、Azure OpenAI）、代码执行等能力扩展"
+    ],
+    "summary": "AutoGen 是微软研究院推出的**多智能体对话式编程框架**。它的核心理念非常简洁而深刻：**多个 AI Agent 之间最高效的协作方式是结构化对话**——不是 API 调用、不是共享状态对象、不是消息队列，而是对话。 Agent 之",
+    "file": "reports/155.md"
+  },
+  {
+    "id": "156",
+    "title": "Report #156",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "organization": "microsoft",
+    "stars": 22000,
+    "category": "编码框架",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "OpenAI",
+      "Java"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "企业级的 AI Agent 开发框架",
+      "企业级基因"
+    ],
+    "summary": "Kernel 使用 Builder 模式，所有服务（LLM、Memory、Plugins）都通过 DI 注册，方便测试时 mock、生产时替换。",
+    "file": "reports/156.md"
+  },
+  {
+    "id": "157",
+    "title": "一句话简介",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "letta-ai",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "分层记忆架构",
+      "虚拟内存隐喻",
+      "结构化记忆块"
+    ],
+    "summary": "GitHub:** https://github.com/letta-ai/letta ⭐ 22k+",
+    "file": "reports/157.md"
+  },
+  {
+    "id": "158",
+    "title": "一句话简介",
+    "url": "https://github.com/mastra-ai/mastra",
+    "organization": "mastra-ai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "RAG",
+      "OpenAI",
+      "Anthropic",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "模块化分层设计",
+      "关键组件：",
+      "Mastra Agents"
+    ],
+    "summary": "GitHub:** https://github.com/mastra-ai/mastra",
+    "file": "reports/158.md"
+  },
+  {
+    "id": "159",
+    "title": "三层模型",
+    "url": "https://github.com/crewaiinc/crewai",
+    "organization": "编排层，将 Agent 和 Task 组合起来，定义协作模式：",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangChain",
+      "llm"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Agent（智能体）",
+      "Task（任务）"
+    ],
+    "summary": "GitHub:** https://github.com/crewaiinc/crewai ⭐ 47.8k+",
+    "file": "reports/159.md"
+  },
+  {
+    "id": "160",
+    "title": "Report #160",
+    "url": "https://github.com/labring/FastGPT",
+    "organization": "labring",
+    "stars": 25500,
+    "category": "工具链",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "RAG",
+      "GPT",
+      "MCP",
+      "React"
+    ],
+    "language": "TypeScript",
+    "license": "",
+    "key_innovations": [
+      "一句话简介：",
+      "三层抽象架构"
+    ],
+    "summary": "** 基于 LLM 的可视化 AI Agent 构建平台，通过拖拽式工作流编排实现企业级知识库问答与复杂智能体应用",
+    "file": "reports/160.md"
+  },
+  {
+    "id": "161",
+    "title": "整体架构分层",
+    "url": "https://github.com/ComposioHQ/composio",
+    "organization": "ComposioHQ",
+    "stars": 27600,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "MCP",
+      "OpenAI",
+      "Anthropic",
+      "LangChain",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "AI Agent 工具集成平台",
+      "如何让 AI 安全、高效地调用真实世界的 API"
+    ],
+    "summary": "一句话概括：**Composio 是 AI Agent 的\"工具层操作系统\"——你只管写 Agent 逻辑，它负责让 Agent 能真正操作外部世界。**",
+    "file": "reports/161.md"
+  },
+  {
+    "id": "162",
+    "title": "整体架构分层",
+    "url": "https://github.com/OpenInterpreter/open-interpreter",
+    "organization": "OpenInterpreter",
+    "stars": 52000,
+    "category": "工具链",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "GPT"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "开源的本地代码解释器",
+      "Open Interpreter 是\"给 LLM 装上一个 exec() 函数\"，把自然语言变成操控计算机的万能遥控器。"
+    ],
+    "summary": "Open Interpreter 是一个**开源的本地代码解释器**，核心使命是让语言模型能够直接在用户的计算机上执行代码。它受 OpenAI 的 GPT-4 Code Interpreter 启发，但打破了后者的所有限制——无网络访问、预",
+    "file": "reports/162.md"
+  },
+  {
+    "id": "163",
+    "title": "三层架构模型",
+    "url": "https://github.com/griptape-ai/griptape",
+    "organization": "griptape-ai",
+    "stars": 6000,
+    "category": "运行时框架",
+    "score": 7.5,
+    "tags": [
+      "LangChain",
+      "Embedding",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "观点鲜明（opinionated）的 Python 框架",
+      "任务编排和工作流引擎"
+    ],
+    "summary": "**工作流驱动 · 显式结构 · 企业级编排 · Driver 抽象层**",
+    "file": "reports/163.md"
+  },
+  {
+    "id": "164",
+    "title": "Report #164",
+    "url": "https://github.com/instructor-ai/instructor",
+    "organization": "Jason Liu (jxnl) 及 100+ 贡献者",
+    "stars": 18000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "TypeScript",
+      "Go"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "专注于从 LLM 中提取结构化、类型安全数据的库",
+      "最关键的\"数据层\"基础设施"
+    ],
+    "summary": "- **Pydantic + LLM 的桥梁**：用 Pydantic Model 定义期望的输出结构，Instructor 负责让 LLM 的输出严格符合该结构",
+    "file": "reports/164.md"
+  },
+  {
+    "id": "166",
+    "title": "一、项目定位",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "Aymeric Roucher、Thomas Wolf、Leandro v",
+    "stars": 26500,
+    "category": "工具链",
+    "score": 8.5,
+    "tags": [
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "轻量级 AI Agent 框架",
+      "Agent 不应该输出 JSON 工具调用——Agent 应该写代码。"
+    ],
+    "summary": "** 极简 · 代码优先 · 模型无关 · HuggingFace 生态原生",
+    "file": "reports/166.md"
+  },
+  {
+    "id": "167",
+    "title": "一、项目定位",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "Samuel Colvin（Pydantic 创始人）+ Pydantic",
+    "stars": 20000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "LangChain",
+      "LangGraph",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "GenAI Agent 开发框架",
+      "FastAPI 革命了 Web 开发——我们要用同样的方式革命 GenAI Agent 开发。"
+    ],
+    "summary": "** 类型安全 · 模型无关 · 可观测性原生 · 生产级 · FastAPI 式体验",
+    "file": "reports/167.md"
+  },
+  {
+    "id": "168",
+    "title": "Report #168",
+    "url": "https://github.com/e2b-dev/e2b",
+    "organization": "e2b-dev",
+    "stars": 10900,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "Go",
+      "TypeScript",
+      "数据分析"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "** 它不是通用 serverless 平台，而是**专门为 AI Agent 设计的**——持久化会话（Agent 需要多轮对话保持上下文）、内置 Code Interpreter（数据分析是 Agent 头号需求）、细粒度安全控制（Ag",
+    "file": "reports/168.md"
+  },
+  {
+    "id": "169",
+    "title": "Report #169",
+    "url": "https://github.com/langfuse/langfuse",
+    "organization": "langfuse",
+    "stars": 20000,
+    "category": "评测基准",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "LangChain",
+      "TypeScript",
+      "Go"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "公司背景："
+    ],
+    "summary": "一句话简介 Langfuse 是一个开源的 **LLM 工程全栈平台**，提供 Tracing（追踪）、Evaluation（评估）、Prompt Management（提示管理）、Datasets（数据集）、Playground（实验场）",
+    "file": "reports/169.md"
+  },
+  {
+    "id": "170",
+    "title": "核心能力矩阵",
+    "url": "https://github.com/langgenius/dify",
+    "organization": "langgenius",
+    "stars": 100000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "RAG",
+      "OpenAI",
+      "FastAPI",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "**\"Production-ready platform for agentic workflow development\"**",
+    "file": "reports/170.md"
+  },
+  {
+    "id": "171",
+    "title": "核心能力矩阵",
+    "url": "https://github.com/run-llama/llama_index",
+    "organization": "run-llama",
+    "stars": 36000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "RAG",
+      "TypeScript",
+      "ReAct",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "**如何让 LLM 高效地连接、理解和操作你的私有数据**。",
+    "file": "reports/171.md"
+  },
+  {
+    "id": "172",
+    "title": "LangGraph",
+    "url": "https://github.com/langchain-ai/langchain",
+    "organization": "LangChain, Inc.（Harrison Chase 创立）",
+    "stars": 15000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LangChain",
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "作者/组织：",
+      "无可争议的开源霸主"
+    ],
+    "summary": "** AI Agent 工程的全栈平台 — 从模型抽象、工具集成到生产级编排运行时",
+    "file": "reports/172.md"
+  },
+  {
+    "id": "173",
+    "title": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "organization": "vllm-project",
+    "stars": 66000,
+    "category": "其他",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "最主流的开源 LLM 推理和 serving 引擎",
+      "PagedAttention",
+      "Continuous Batching"
+    ],
+    "summary": "项目定位 vLLM 是目前 **最主流的开源 LLM 推理和 serving 引擎**。它不只是一个\"加速库\"——它重新定义了 LLM 服务的基础设施层： - **PagedAttention** 算法解决 KV Cache 内存碎片化问题",
+    "file": "reports/173.md"
+  },
+  {
+    "id": "174",
+    "title": "整体架构：Pipeline-as-DAG + Component 原子化",
+    "url": "https://github.com/deepset-ai/haystack",
+    "organization": "deepset-ai",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "公司背景："
+    ],
+    "summary": "** 开源 Python LLM 应用编排框架，以 Pipeline + Component 为核心抽象，从 NLP 时代的语义搜索框架演进为现代 Agentic RAG 全栈方案",
+    "file": "reports/174.md"
+  },
+  {
+    "id": "175",
+    "title": "Report #175",
+    "url": "https://github.com/langchain-ai/langchain",
+    "organization": "langchain-ai",
+    "stars": 95000,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LangChain",
+      "langchain",
+      "LLM",
+      "RAG",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "分层模块化架构"
+    ],
+    "summary": "** 构建 LLM 应用和 Agent 的基础框架与组件平台",
+    "file": "reports/175.md"
+  },
+  {
+    "id": "176",
+    "title": "Report #176",
+    "url": "https://github.com/BerriAI/litellm",
+    "organization": "BerriAI",
+    "stars": 35000,
+    "category": "其他",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "gpt"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "AI Gateway（AI 网关）",
+      "用统一的 OpenAI 格式调用 100+ 家 LLM 提供商的 API"
+    ],
+    "summary": "项目概览 LiteLLM 是一个开源的 **AI Gateway（AI 网关）**，核心使命是**用统一的 OpenAI 格式调用 100+ 家 LLM 提供商的 API**。它同时提供 Python SDK 和 Proxy Server（",
+    "file": "reports/176.md"
+  },
+  {
+    "id": "177",
+    "title": "版本演进关键节点",
+    "url": "https://github.com/QwenLM/Qwen-Agent",
+    "organization": "最大化利用 Qwen 系列模型的原生能力（指令遵循、工具调用、规划推理、",
+    "stars": 15900,
+    "category": "工具链",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "MCP",
+      "RAG",
+      "LangChain"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "~15,900",
+      "Agent 开发框架"
+    ],
+    "summary": "项目概述 Qwen-Agent 是阿里巴巴通义千问团队开源的 **Agent 开发框架**，它不是又一个\"通用 Agent 框架\"，而是**深度绑定 Qwen 模型能力**的基础设施层。与 LangChain 的\"模型无关\"哲学不同，Qwe",
+    "file": "reports/177.md"
+  },
+  {
+    "id": "178",
+    "title": "整体架构图",
+    "url": "https://github.com/ollama/ollama",
+    "organization": "ollama",
+    "stars": 105000,
+    "category": "其他",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Go",
+      "PyTorch"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "\"Get up and running with large language models locally\"",
+      "让普通开发者用一条命令就能在本地运行任何开源大模型"
+    ],
+    "summary": "在 Ollama 出现之前，本地跑 LLM 意味着：装 Python、配 PyTorch、处理 CUDA 版本冲突、手动下载模型权重、写推理代码……门槛极高。Ollama 把这一切简化为 `ollama run llama3`，就像 Doc",
+    "file": "reports/178.md"
+  },
+  {
+    "id": "179",
+    "title": "整体架构：多 Agent 蜂群模型",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "organization": "OpenHands",
+    "stars": 39000,
+    "category": "编码框架",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "TypeScript",
+      "React",
+      "Go"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "面向软件工程的 AI Agent 平台",
+      "\"一个 Delegator + N 个 Specialist Agents\""
+    ],
+    "summary": "OpenHands 的核心设计思想是 **\"一个 Delegator + N 个 Specialist Agents\"** 的蜂群架构：",
+    "file": "reports/179.md"
+  },
+  {
+    "id": "180",
+    "title": "1️⃣ Agent 层 — 角色定义",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "organization": "### 1️⃣ Agent 层 — 角色定义",
+    "stars": 28000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LangChain",
+      "llm",
+      "gpt",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "「模拟真实团队协作」",
+      "backstory 是灵魂"
+    ],
+    "summary": "CrewAI 的设计哲学是**「模拟真实团队协作」**——每个 Agent 扮演一个角色（role），拥有目标（goal）和背景故事（backstory），通过任务（Task）链协同工作。核心架构分为三层：",
+    "file": "reports/180.md"
+  },
+  {
+    "id": "181",
+    "title": "整体架构：双模型 + 多 rollout 并行评估",
+    "url": "https://github.com/simular-ai/agent-s",
+    "organization": "simular-ai",
+    "stars": 10000,
+    "category": "GUI-Agent",
+    "score": 7.5,
+    "tags": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "计算机操作智能体（Computer Use Agent）",
+      "解耦式双模型架构"
+    ],
+    "summary": "- **主模型**负责\"思考\"（规划、推理、决策质量）",
+    "file": "reports/181.md"
+  },
+  {
+    "id": "182",
+    "title": "设计哲学：极简原语 + 极大表达力",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 19000,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "轻量级多智能体工作流框架",
+      "\"功能够用就好，原语越少越好\""
+    ],
+    "summary": "OpenAI Agents SDK 的核心设计原则是：**\"功能够用就好，原语越少越好\"**。它只提供极少量的核心抽象，但通过组合可以表达极其复杂的多 Agent 协作关系。这是它区别于 LangChain（过度抽象）和 CrewAI（角色",
+    "file": "reports/182.md"
+  },
+  {
+    "id": "183",
+    "title": "核心分层架构",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 56700,
+    "category": "多智能体",
+    "score": 9.5,
+    "tags": [
+      "PyTorch",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "56,700+",
+      "Fork数",
+      "8,500+"
+    ],
+    "summary": "AutoGen 是微软研究院开发的开源编程框架，专门用于构建**多智能体（Multi-Agent）AI 应用系统**。它的核心理念是让多个 AI Agent 可以自主行动或与人类协同工作，通过对话和工具调用来解决复杂任务。",
+    "file": "reports/183.md"
+  },
+  {
+    "id": "184",
+    "title": "核心模块",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "DeepWisdom（深维智信）",
+    "stars": 61900,
+    "category": "多智能体",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "代码生成"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Fork数："
+    ],
+    "summary": "用户只需输入一行需求（如\"开发一个贪吃蛇游戏\"），MetaGPT 就能自动完成：竞品分析 → 需求文档（PRD）→ 技术架构设计 → 任务拆解 → 代码生成 → 代码执行与调试的全流程。",
+    "file": "reports/184.md"
+  },
+  {
+    "id": "185",
+    "title": "Letta Code",
+    "url": "https://github.com/letta-ai/letta",
+    "organization": "Letta Code：终端中的有状态编程 Agent（类似 Clau",
+    "stars": 21900,
+    "category": "工具链",
+    "score": 8.5,
+    "tags": [
+      "GPT",
+      "LLM",
+      "Claude",
+      "TypeScript",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Fork 数：",
+      "开发语言："
+    ],
+    "summary": "📚 AI Agent 学习报告 #185的AI Agent研究分析",
+    "file": "reports/185.md"
+  },
+  {
+    "id": "186",
+    "title": "核心抽象：图 = Node + Edge + State",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "LangChain Inc.",
+    "stars": 28544,
+    "category": "运行时框架",
+    "score": 8.5,
+    "tags": [
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LangChain",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Fork数：",
+      "主要语言："
+    ],
+    "summary": "已被 LinkedIn、Uber、Klarna、Elastic 等企业用于生产环境。",
+    "file": "reports/186.md"
+  },
+  {
+    "id": "187",
+    "title": "核心模块",
+    "url": "https://github.com/agno-agi/agno",
+    "organization": "agno-agi",
+    "stars": 39209,
+    "category": "运行时框架",
+    "score": 9.0,
+    "tags": [
+      "anthropic",
+      "openai",
+      "mcp",
+      "MCP",
+      "FastAPI"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Agno 是一个用于构建、运行和管理规模化 Agentic 软件的开源 Python 框架"
+    ],
+    "summary": "Agno 是一个用于构建、运行和管理规模化 Agentic 软件的开源 Python 框架。它由三大核心层组成： 1. **Framework（框架层）**：构建具有记忆、知识库、护栏和 100+ 集成的 Agent、团队和工作流 2. *",
+    "file": "reports/187.md"
+  },
+  {
+    "id": "188",
+    "title": "核心模块",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 26400,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "memory",
+      "向量检索"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "SmolAgents 是 HuggingFace 推出的轻量级 AI Agent 框架，核心理念是 **\"agents that think in code\"（用代码思考的智能体）",
+      "它让开发者只需几行代码就能构建强大的多步骤 Agent",
+      "与大多数 Agent 框架不同，SmolAgents 不追求大而全的编排能力，而是聚焦于一个核心洞察：**让 LLM 生成 Python 代码来调用工具**，而非传统的 JSON 函数调用格式"
+    ],
+    "summary": "SmolAgents 是 HuggingFace 推出的轻量级 AI Agent 框架，核心理念是 **\"agents that think in code\"（用代码思考的智能体）**。它让开发者只需几行代码就能构建强大的多步骤 Agent",
+    "file": "reports/188.md"
+  },
+  {
+    "id": "189",
+    "title": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "organization": "langgenius",
+    "stars": 136466,
+    "category": "运行时框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "RAG",
+      "GPT",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "团队开发的开源 LLM 应用开发平台。它的核心定位是 **\"Production-ready platform for agentic workflow dev",
+      "可视化工作流编排器（Workflow）**：拖拽式画布构建复杂 AI 流程",
+      "RAG 管道**：从文档摄入到检索的完整检索增强生成链路"
+    ],
+    "summary": "Dify 是由 **LangGenius（面壁智能）** 团队开发的开源 LLM 应用开发平台。它的核心定位是 **\"Production-ready platform for agentic workflow development\"**",
+    "file": "reports/189.md"
+  },
+  {
+    "id": "190",
+    "title": "核心模块",
+    "url": "https://github.com/browser-use/browser-use",
+    "organization": "browser-use",
+    "stars": 86300,
+    "category": "浏览器代理",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "的 Python 开源框架。它的核心理念是将任何网页变成 AI 可交互的接口——Agent 不再需要依赖 API，而是像人类一样通过浏览器完成点击、输入、导航等",
+      "网页自动化任务**：自动填表、数据抓取、在线购物、申请职位等",
+      "多 LLM 支持**：原生支持 OpenAI、Anthropic Claude、Google Gemini，以及自研的 ChatBrowserUse 模型"
+    ],
+    "summary": "Browser Use 是一个让 **AI Agent 能够直接操作浏览器** 的 Python 开源框架。它的核心理念是将任何网页变成 AI 可交互的接口——Agent 不再需要依赖 API，而是像人类一样通过浏览器完成点击、输入、导航等",
+    "file": "reports/190.md"
+  },
+  {
+    "id": "191",
+    "title": "核心模块",
+    "url": "https://github.com/EvoAgentX/EvoAgentX",
+    "organization": "EvoAgentX",
+    "stars": 2705,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Claude",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "LLM-based Agent 工作流的核心框架。它的核心理念是：Agent 不应该只是静态的 prompt 链或手动编排的工作流，而应该像软件工程一样——通过"
+    ],
+    "summary": "EvoAgentX 是一个开源的、用于构建、评估和**自动进化** LLM-based Agent 工作流的核心框架。它的核心理念是：Agent 不应该只是静态的 prompt 链或手动编排的工作流，而应该像软件工程一样——通过迭代反馈循环",
+    "file": "reports/191.md"
+  },
+  {
+    "id": "192",
+    "title": "Aider",
+    "url": "https://github.com/aider-ai/aider",
+    "organization": "aider-ai",
+    "stars": 39000,
+    "category": "编码框架",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "Claude",
+      "GPT",
+      "Rust",
+      "Go"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "100+ 编程语言**支持（Python、JavaScript、Rust、Go、C++ 等）",
+      "Git 原生集成** — 自动提交、智能 diff、可回滚",
+      "代码库地图（RepoMap）** — 自动构建整个项目的结构化索引"
+    ],
+    "summary": "- 做 edit 时应该尽量缩小改动范围",
+    "file": "reports/192.md"
+  },
+  {
+    "id": "193",
+    "title": "Report #193",
+    "url": "",
+    "organization": "香港大学、Salesforce Research、CMU、Waterloo",
+    "stars": 0,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "作者团队:",
+      "发布时间:"
+    ],
+    "summary": "** 它不是任务数量最多的，也不是速度最快的，但它是在**真实桌面环境 + 跨应用 + 可靠评估**这三个维度上同时做到最好的 benchmark。对于 Computer Use / GUI Agent 方向的研究者来说，OSWorld 是",
+    "file": "reports/193.md"
+  },
+  {
+    "id": "194",
+    "title": "OrgAgent: Organize Your Multi-Agent System like a Company",
+    "url": "",
+    "organization": "香港中文大学、IBM Research、CISPA Helmholtz",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Multi-Agent",
+      "Multi-agent"
+    ],
+    "language": "C++",
+    "license": "MPL",
+    "key_innovations": [
+      "OrgAgent: Organize Your Multi-Agent System like a Company",
+      "作者团队:",
+      "发布时间:"
+    ],
+    "summary": "** 它不是一个面向特定领域的框架（如 ChatDev 面向软件开发），而是一个**通用的、以组织结构为核心变量的 MAS 研究框架**。它的贡献不在于提供了\"最好用的工具\"，而在于回答了\"应该怎么组织\"这一根本问题。",
+    "file": "reports/194.md"
+  },
+  {
+    "id": "195",
+    "title": "OAgents: An Empirical Study of Building Effective Agents",
+    "url": "",
+    "organization": "He Zhu, Tianrui Qin, King Zhu 等（大规模协作",
+    "stars": 0,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "Memory"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "OAgents: An Empirical Study of Building Effective Agents",
+      "作者团队：",
+      "开源地址："
+    ],
+    "summary": "- 是搜索工具不够好？（FAC 问题 → 改工具）",
+    "file": "reports/195.md"
+  },
+  {
+    "id": "196",
+    "title": "EvoAgentX: An Automated Framework for Evolving Agentic Workflows",
+    "url": "https://github.com/EvoAgentX/EvoAgentX",
+    "organization": "Yingxu Wang (MBZUAI), Siwei Liu (Aber",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "Claude",
+      "Multi-Agent"
+    ],
+    "language": "C++",
+    "license": "",
+    "key_innovations": [
+      "瓶颈一：工作流构建依赖人工。",
+      "瓶颈二：缺乏原生进化优化能力。"
+    ],
+    "summary": "EvoAgentX: An Automated Framework for Evolving Agentic Workflows**",
+    "file": "reports/196.md"
+  },
+  {
+    "id": "198",
+    "title": "Unbody — The Supabase of AI Era",
+    "url": "https://github.com/unbody-io/unbody",
+    "organization": "unbody-io",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 2.2,
+    "tags": [
+      "RAG",
+      "Embedding",
+      "OpenAI",
+      "LLM",
+      "LangChain"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Unbody — The Supabase of AI Era",
+      "数据的 CRUD",
+      "让系统理解、推理、并基于知识行动"
+    ],
+    "summary": "true)  # ← 自动触发 LLM 总结",
+    "file": "reports/198.md"
+  },
+  {
+    "id": "199",
+    "title": "GitHub",
+    "url": "https://github.com/zai-org/CogAgent",
+    "organization": "zai-org",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [],
+    "summary": "大语言模型（如ChatGPT）在文本任务上表现出色，但在**图形用户界面（GUI）交互**上存在根本性缺陷：",
+    "file": "reports/199.md"
+  },
+  {
+    "id": "200",
+    "title": "GitHub",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "openai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "2024年底，OpenAI 发布了实验性的 **Swarm** 框架，探索轻量级多 Agent 编排。Swarm 的核心理念是\"极简原语\"——用最少的抽象表达 Agent 之间的协作关系。然而 Swarm 存在明显局限：",
+    "file": "reports/200.md"
+  },
+  {
+    "id": "201",
+    "title": "GitHub",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python",
+    "organization": "anthropics",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "claude",
+      "LLM",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "2025年初，Anthropic 发布了 **Claude Code**——一个命令行 AI 编程助手，能够自主阅读代码库、编辑文件、运行命令、提交代码。Claude Code 迅速成为开发者社区的热门工具。",
+    "file": "reports/201.md"
+  },
+  {
+    "id": "202",
+    "title": "GitHub",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "organization": "nousresearch",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "这不是一个普通的\"又一个 Agent 框架\"。正如中文技术社区的一篇深度分析所指出的：",
+    "file": "reports/202.md"
+  },
+  {
+    "id": "203",
+    "title": "GitHub",
+    "url": "https://github.com/browser-use/browser-use",
+    "organization": "browser-use",
+    "stars": 0,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "在 Browser-Use 出现之前，AI Agent 与网站的交互存在巨大障碍：",
+    "file": "reports/203.md"
+  },
+  {
+    "id": "204",
+    "title": "GitHub",
+    "url": "https://github.com/bytedance/UI-TARS",
+    "organization": "bytedance",
+    "stars": 26000,
+    "category": "GUI-Agent",
+    "score": 8.5,
+    "tags": [
+      "LangGraph"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "感知依赖文本"
+    ],
+    "summary": "UI-TARS 不是又一个 Agent 框架（如 LangGraph / CrewAI），而是一个**原生 Agent 模型（Agent Model）**——它将 Agent 能力内化到模型权重中，而非依赖外部编排逻辑。",
+    "file": "reports/204.md"
+  },
+  {
+    "id": "205",
+    "title": "GitHub",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "organization": "google-gemini",
+    "stars": 2026,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "OpenAI",
+      "LLM",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "Gemini CLI",
+      "Agentic Coding Platform"
+    ],
+    "summary": "不是又一个 LLM 聊天客户端，而是一个 **ReAct 循环驱动的自主终端 Agent**——能读文件、执行 Shell 命令、编辑代码、搜索网页、调用 MCP 工具，并以多步推理完成复杂开发任务。",
+    "file": "reports/205.md"
+  },
+  {
+    "id": "206",
+    "title": "Gatsby",
+    "url": "https://github.com/mastra-ai/mastra",
+    "organization": "mastra-ai",
+    "stars": 19000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LangChain",
+      "LLM",
+      "MCP",
+      "LangGraph",
+      "OpenAI"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "| Mastra Labs（核心团队来自",
+      "~19,000+"
+    ],
+    "summary": "不是一个简单的 LLM 调用封装，而是一个 **AI Application Framework**——涵盖 Agent、Workflow、Memory、Eval、Observability、MCP Server 的完整平台。",
+    "file": "reports/206.md"
+  },
+  {
+    "id": "207",
+    "title": "Report #207",
+    "url": "https://github.com/X-PLUG/MobileAgent",
+    "organization": "X-PLUG",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "Claude",
+      "LLM"
+    ],
+    "language": "",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "GUI 智能体（Graphical User Interface Agents）旨在通过理解屏幕界面、模拟人类操作来自动化完成各类数字任务。当前该领域存在两条主流路线，但各有明显短板：",
+    "file": "reports/207.md"
+  },
+  {
+    "id": "209",
+    "title": "GitHub Stars",
+    "url": "",
+    "organization": "",
+    "stars": 65000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "项目背景与问题定义 OpenHands 的前身 OpenDevin 诞生于 2024 年 3 月，灵感直接来自 Cognition AI 的闭源产品 Devin——首个宣称能自主完成端到端软件工程任务的 AI 智能体。OpenDevin 的",
+    "file": "reports/209.md"
+  },
+  {
+    "id": "211",
+    "title": "GitHub",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "\"GenAI is still just engineering.\"",
+    "stars": 19000,
+    "category": "运行时框架",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "FastAPI",
+      "Rust"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "PyPI 月下载量"
+    ],
+    "summary": "Pydantic 团队的回答很直接：**\"GenAI is still just engineering.\"**",
+    "file": "reports/211.md"
+  },
+  {
+    "id": "212",
+    "title": "核心设计哲学：角色扮演 × 团队协作",
+    "url": "https://github.com/crewaiinc/crewAI",
+    "organization": "crewaiinc",
+    "stars": 22000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LangChain"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "创始人/团队"
+    ],
+    "summary": "CrewAI 的核心隐喻是**真实的团队协作**——每个 Agent 扮演一个特定角色（研究员、分析师、写手），拥有自己的目标、背景故事和工具集，像真正的团队成员一样分工合作。",
+    "file": "reports/212.md"
+  },
+  {
+    "id": "213",
+    "title": "核心设计哲学：AI 是放大器，不是替代品",
+    "url": "https://github.com/danielmiessler/fabric",
+    "organization": "danielmiessler",
+    "stars": 30000,
+    "category": "其他",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "Go",
+      "go"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "创始人/团队"
+    ],
+    "summary": "OpenClaw 的楠楠角色介于两者之间——既是学妹/助手（增强人类），又有一定的自主性（心跳、主动学习）。Fabric 的\"人在回路\"设计哲学提醒我们，**最好的 AI 产品不一定是最自主的，而是最 seamlessly integrat",
+    "file": "reports/213.md"
+  },
+  {
+    "id": "215",
+    "title": "GitHub",
+    "url": "https://github.com/voyager-minedojo/voyager",
+    "organization": "voyager-minedojo",
+    "stars": 20000,
+    "category": "其他",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "GPT"
+    ],
+    "language": "JavaScript",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "项目背景与研究动机 Voyager 诞生于一个核心问题：**如何构建能够持续探索、自主规划、不断习得新技能的通用具身智能体？** 在 Voyager 之前，主流路径是强化学习（RL）和模仿学习，基于原始动作空间训练策略。这些方法面临三大瓶颈",
+    "file": "reports/215.md"
+  },
+  {
+    "id": "216",
+    "title": "GitHub",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "> *\"FastAPI 革命了 Web 开发——它基于 Pydantic Val",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "LangChain"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "创始人/团队"
+    ],
+    "summary": "在 LLM Agent 开发中，一个长期困扰开发者的问题是：**大模型返回的 JSON 结构化输出不可靠**。字段名拼写错误、类型不匹配、缺失必填字段、多余字段——这些问题在生产环境中频繁出现。传统解决方案是手动解析字符串、写正则表达式、做",
+    "file": "reports/216.md"
+  },
+  {
+    "id": "217",
+    "title": "GitHub",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "organization": "All-Hands-AI",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "TypeScript",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "创始人/团队"
+    ],
+    "summary": "2024 年 3 月，Cognition AI 发布了 Devin——一个号称能自主完成软件工程任务的 AI Agent。Devin 的演示视频在技术圈引发轰动：它能在 GitHub issue 上自主阅读代码、编写测试、修复 bug、提交",
+    "file": "reports/217.md"
+  },
+  {
+    "id": "218",
+    "title": "GitHub",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "不修补 LangChain 的 Agent 系统，而是从零构建一个全新的底层",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "langchain",
+      "langgraph",
+      "LangChain",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "LangChain 是 2022-2023 年间最火爆的 LLM 开发框架，但它很快面临一个根本性困境：**上手容易、定制难、生产化更难**。无数开发者在 GitHub Issues、Discord 和 Slack 中反馈同一个问题——La",
+    "file": "reports/218.md"
+  },
+  {
+    "id": "219",
+    "title": "Report #219",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "- SPA 应用动态渲染的内容（ref 经常失效）",
+    "file": "reports/219.md"
+  },
+  {
+    "id": "220",
+    "title": "Report #220",
+    "url": "https://github.com/WujiangXu/A-mem",
+    "organization": "WujiangXu",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Go",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "代码（评测）",
+      "代码（生产系统）"
+    ],
+    "summary": "LLM Agent 在执行复杂任务时需要记忆系统来利用历史经验——这已是社区共识。从 MemGPT 的分层记忆架构到 MemoryBank 的密集检索，从 ReadAgent 的阅读-摘要循环到 Mem0 的图数据库方案，研究者们提出了多种",
+    "file": "reports/220.md"
+  },
+  {
+    "id": "221",
+    "title": "Report #221",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "Anthropic"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "代码/数据"
+    ],
+    "summary": "序列决策          │           │",
+    "file": "reports/221.md"
+  },
+  {
+    "id": "222",
+    "title": "GitHub",
+    "url": "https://github.com/letta-ai/letta（21.7K+",
+    "organization": "> LLM 的上下文窗口问题，本质上和传统计算机的物理内存限制是同一个问题",
+    "stars": 2024,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT",
+      "Memory",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "**它是唯一一个将\"记忆\"作为第一公民（first-class citizen）设计的 Agent 平台。**",
+    "file": "reports/222.md"
+  },
+  {
+    "id": "223",
+    "title": "Report #223",
+    "url": "https://github.com/swe-agent/swe-agent",
+    "organization": "> LLM Agent 代表了一类全新的终端用户，它们有自己独特的能力边界和",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "Claude",
+      "LLM",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "代码（主仓库）",
+      "代码（极简版）"
+    ],
+    "summary": "2023-2024 年，随着 GPT-4、Claude 等大语言模型展现出强大的推理和代码生成能力，一个全新的应用范式开始成型：**让 LLM 作为自主 Agent 在计算机环境中执行复杂任务**。在软件工程领域，这意味着让 AI 自主地浏",
+    "file": "reports/223.md"
+  },
+  {
+    "id": "224",
+    "title": "Report #224",
+    "url": "https://github.com/AI45Lab/AgentDoG",
+    "organization": "AI45Lab",
+    "stars": 0,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "数据集（ATBench）"
+    ],
+    "summary": "是用户输入的问题？环境观测被污染？工具描述被注入？还是 Agent 内部推理出错？",
+    "file": "reports/224.md"
+  },
+  {
+    "id": "225",
+    "title": "Report #225",
+    "url": "https://github.com/aiming-lab/SimpleMem",
+    "organization": "Agent 记忆系统的性能瓶颈往往不在模型选择或超参数调优上，而在于工程实现",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "str           # 紧凑的自然语言摘要（hot storage）",
+    "file": "reports/225.md"
+  },
+  {
+    "id": "226",
+    "title": "Report #226",
+    "url": "",
+    "organization": "用轻量级合成数据框架解决数据稀缺问题",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [],
+    "summary": "随着大语言模型从被动文本处理器进化为自主智能体，**规划（Planning）** 已成为现代 AI Agent 能力的核心组件。一个有效的规划系统使 Agent 能够将复杂目标分解为可执行的子任务、按逻辑顺序调度执行——这直接决定了任务完成",
+    "file": "reports/226.md"
+  },
+  {
+    "id": "227",
+    "title": "Report #227",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "代码/数据集"
+    ],
+    "summary": "随着 LLM Agent 从研究原型快速演进为生产工具，**Agent Skills（技能）**已成为扩展 Agent 能力的核心机制。开发者通过自然语言规范和可执行脚本来封装可复用的工作流、领域知识和工具集成——这些基于文件的包被称为\"技",
+    "file": "reports/227.md"
+  },
+  {
+    "id": "228",
+    "title": "Report #228",
+    "url": "https://github.com/ECNU-SII/MIA",
+    "organization": "ECNU-SII",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "Memory",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "然而，当前主流的 Agent 记忆方案——**长上下文记忆（Long-Context Memory）**——在面对深度研究场景时暴露出四个根本性缺陷：",
+    "file": "reports/228.md"
+  },
+  {
+    "id": "229",
+    "title": "问题背景",
+    "url": "https://github.com/OS-Copilot/OS-Copilot",
+    "organization": "OS-Copilot",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "** OS-Copilot 是\"让 Agent 像人一样通过使用变得越来越熟练\"这一理念的标杆实现。",
+    "file": "reports/229.md"
+  },
+  {
+    "id": "230",
+    "title": "行业痛点",
+    "url": "https://github.com/crewaiinc/crewAI",
+    "organization": "Prompt 链伪装成 Agent：LLM + 工具的简单循环调用",
+    "stars": 30000,
+    "category": "多智能体",
+    "score": 8.5,
+    "tags": [
+      "LLM",
+      "LangGraph",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "开发者认证"
+    ],
+    "summary": "CrewAI 诞生于对现有 Agent 框架架构缺陷的深刻反思。团队在观察了 **17亿次** 企业级 agentic 工作流执行后，识别出三大行业通病：",
+    "file": "reports/230.md"
+  },
+  {
+    "id": "231",
+    "title": "GitHub Stars",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 42000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "AutoGen 的诞生源于一个关键观察：**单一 LLM 在复杂任务上的表现远不如多个专业化智能体协作**。但如何让多个 Agent 高效、可靠地协同工作？这是 AutoGen 要解决的核心问题。",
+    "file": "reports/231.md"
+  },
+  {
+    "id": "232",
+    "title": "核心问题：LLM 多智能体协作中的\"级联幻觉\"与无序交互",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "organization": "FoundationAgents",
+    "stars": 47000,
+    "category": "多智能体",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "现有的 LLM-based 多智能体系统在处理简单对话任务时表现尚可，但面对复杂任务时暴露出两大致命缺陷：",
+    "file": "reports/232.md"
+  },
+  {
+    "id": "233",
+    "title": "行业背景",
+    "url": "https://github.com/huggingface/smolagents",
+    "organization": "huggingface",
+    "stars": 8000,
+    "category": "多智能体",
+    "score": 7.5,
+    "tags": [
+      "LLM",
+      "LangChain",
+      "LangGraph"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "- **研究者**：想理解 Agent 内部机制而不被抽象迷惑",
+    "file": "reports/233.md"
+  },
+  {
+    "id": "234",
+    "title": "Report #234",
+    "url": "https://github.com/MineDojo/Voyager",
+    "organization": "MineDojo",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "项目官网/代码"
+    ],
+    "summary": "它不是一个通用的 Agent 编排框架，而是一个**面向开放世界交互式学习的完整智能体系统**。它的价值不在于提供工具链，而在于证明了 LLM 可以通过纯提示工程实现终身学习——这对整个 Agent 领域都有方法论层面的启发。",
+    "file": "reports/234.md"
+  },
+  {
+    "id": "235",
+    "title": "Report #235",
+    "url": "https://github.com/lapisrocks/LanguageAgentTreeSearch",
+    "organization": "lapisrocks",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "ReAct",
+      "CoT",
+      "Reflexion"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "在 LATS 提出之前，LLM Agent 领域存在一个明显的**能力割裂**问题：",
+    "file": "reports/235.md"
+  },
+  {
+    "id": "236",
+    "title": "GitHub Stars",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "organization": "All-Hands-AI",
+    "stars": 64000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "LLM",
+      "Memory"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "论文/链接"
+    ],
+    "summary": "OpenHands 是目前最具影响力的**开源软件工程智能体平台**之一，其核心创新可归纳为以下五个维度：",
+    "file": "reports/236.md"
+  },
+  {
+    "id": "237",
+    "title": "Report #237",
+    "url": "https://github.com/shishirpatil/gorilla",
+    "organization": "HuggingFace Transformers：数百个预训练模型的",
+    "stars": 0,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT",
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "代码/项目地址"
+    ],
+    "summary": "Gorilla 是伯克利 AI 研究室（BAIR）推出的开创性工作，它首次系统性地解决了 LLM 与真实 API 生态对接的核心难题。其核心创新可归纳为以下四个维度：",
+    "file": "reports/237.md"
+  },
+  {
+    "id": "238",
+    "title": "GitHub Stars",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "camel-ai",
+    "stars": 15000,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [],
+    "summary": "CAMEL 是多智能体系统领域的奠基性工作之一，其核心创新可归纳为以下四个维度：",
+    "file": "reports/238.md"
+  },
+  {
+    "id": "239",
+    "title": "核心问题",
+    "url": "",
+    "organization": "Shuyan Zhou, Frank F. Xu, Hao Zhu, Xu",
+    "stars": 0,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "知识库"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "论文链接：",
+      "项目主页："
+    ],
+    "summary": "** 它在\"环境真实性\"和\"实验可控性\"之间找到了最佳平衡点。比 MiniWob/WebShop 真实得多，又比 OSWorld 更聚焦于 Web 场景、部署门槛更低（不需要 macOS）。比 WebVoyager 更具科学严谨性（可复现",
+    "file": "reports/239.md"
+  },
+  {
+    "id": "240",
+    "title": "Report #240",
+    "url": "https://github.com/xlang-ai/OSWorld",
+    "organization": "xlang-ai",
+    "stars": 0,
+    "category": "评测基准",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "** 它是目前唯一同时满足「真实 OS 环境」+「任意应用可扩展」+「执行式评估」+「中间状态支持」四个条件的基准。WebArena 更适合纯 Web 场景的深度评测，而 OSWorld 覆盖了更广义的\"计算机使用\"概念。",
+    "file": "reports/240.md"
+  },
+  {
+    "id": "242",
+    "title": "Report #242",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "Anthropic",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [],
+    "summary": "随着大语言模型能力的快速提升，一个根本性矛盾日益突出：**最先进的模型被隔离在数据之外**。每个新的数据源都需要定制化的集成代码——连 GitHub 要写一套适配器，连 Slack 要写一套，连 PostgreSQL 又要一套。这种\"一个数",
+    "file": "reports/242.md"
+  },
+  {
+    "id": "243",
+    "title": "GitHub",
+    "url": "",
+    "organization": "Agent 仅通过声明的能力（AgentCard）和交换的消息来协作，无需暴",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangChain",
+      "OpenAI",
+      "LangGraph",
+      "Anthropic",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [],
+    "summary": "MCP 管纵向的工具集成，A2A 管横向的 Agent 间协调。",
+    "file": "reports/243.md"
+  },
+  {
+    "id": "244",
+    "title": "Report #244",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "anthropic",
+      "claude",
+      "LLM"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "Agent 只能操作那些为它专门构建了 API 接口的系统"
+    ],
+    "summary": "Claude 直接从截图中推理出操作的像素坐标。",
+    "file": "reports/244.md"
+  },
+  {
+    "id": "245",
+    "title": "为什么需要 OS-Atlas？",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "GPT"
+    ],
+    "language": "",
+    "license": "MIT",
+    "key_innovations": [
+      "OS-Atlas",
+      "GUI Grounding（GUI 锚定）",
+      "严重依赖商业闭源 VLM"
+    ],
+    "summary": "项目背景 **OS-Atlas**（Open Source Atlas for GUI Agents）是由上海 AI Lab、上海交通大学、香港大学和 MIT 联合研发的开源基础动作模型（Foundation Action Model），专",
+    "file": "reports/245.md"
+  },
+  {
+    "id": "246",
+    "title": "一、背景与问题",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Agent 的探索能力与生产可靠性不可兼得",
+      "非确定性导致难以部署",
+      "DOM 解析认知负载过高"
+    ],
+    "summary": "Stagehand 是\"给开发者的 AI-enhanced Playwright 替代品\"，Browser-Use 是\"纯 LLM 驱动的浏览器自动化框架\"，而 Notte 是\"从探索到生产的全栈 Web Agent 平台\"。三者处于不同层",
+    "file": "reports/246.md"
+  },
+  {
+    "id": "247",
+    "title": "#247 OpenHands",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "1880万美元A轮融资",
+      "如何让AI以\"写代码\"这一人类最强大的交互方式来操作世界？"
+    ],
+    "summary": "OpenHands（原名OpenDevin）是由UIUC、CMU、Yale、UC Berkeley等高校联合All Hands AI团队于2024年推出的开源AI Agent平台，灵感源自Cognition AI的闭源产品Devin。项目已",
+    "file": "reports/247.md"
+  },
+  {
+    "id": "248",
+    "title": "解决的核心痛点",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "LLM",
+      "LangGraph",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "GPT-Researcher",
+      "时效性缺失"
+    ],
+    "summary": "项目背景与问题定义 **GPT-Researcher** 是由 Assaf Elovic 于 2023 年底发起的开源自主研究 Agent 框架，核心使命是\"通过 AI 为个人和组织提供准确、无偏见、基于事实的信息\"。项目 GitHub 星",
+    "file": "reports/248.md"
+  },
+  {
+    "id": "249",
+    "title": "Skyvern",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "",
+    "license": "MPL",
+    "key_innovations": [
+      "用自然语言驱动浏览器完成复杂工作流",
+      "解决的核心问题：",
+      "传统浏览器自动化的脆弱性"
+    ],
+    "summary": "项目背景与问题定义 Skyvern是由Skyvern AI（YC孵化）开发的开源浏览器自动化Agent框架，核心定位是**用自然语言驱动浏览器完成复杂工作流**。项目灵感来源于BabyAGI和AutoGPT的任务驱动自主Agent设计范式，",
+    "file": "reports/249.md"
+  },
+  {
+    "id": "250",
+    "title": "要解决的核心问题",
+    "url": "",
+    "organization": "一个仅通过截图感知环境、输出人类级交互操作（鼠标/键盘）的端到端模型",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "GPT"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "原生 GUI Agent 模型",
+      "一个仅通过截图感知环境、输出人类级交互操作（鼠标/键盘）的端到端模型",
+      "模块化框架路线（Agent Framework）"
+    ],
+    "summary": "**一个仅通过截图感知环境、输出人类级交互操作（鼠标/键盘）的端到端模型**。",
+    "file": "reports/250.md"
+  },
+  {
+    "id": "251",
+    "title": "核心问题",
+    "url": "https://github.com/minedojo/voyager",
+    "organization": "//github.com/minedojo/voyager)",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "GPT"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "Voyager",
+      "首个基于大语言模型的具身终身学习 Agent",
+      "探索效率低下"
+    ],
+    "summary": "它是唯一一个将**终身学习**作为一等公民设计的 Agent 框架。其他框架更关注单次任务执行能力，而 Voyager 关注的是**Agent 如何随时间变得越来越强**。",
+    "file": "reports/251.md"
+  },
+  {
+    "id": "252",
+    "title": "要解决的核心问题",
+    "url": "",
+    "organization": "07456），核心目标是构建能够与操作系统中所有元素交互的\"通才型\"计",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "OS-Copilot",
+      "操作系统级通用 Agent 框架",
+      "FRIDAY"
+    ],
+    "summary": "项目背景与问题定义 **OS-Copilot** 是由研究团队于 2024 年 2 月提出的**操作系统级通用 Agent 框架**（arXiv:2402.07456），核心目标是构建能够与操作系统中所有元素交互的\"通才型\"计算机 Agen",
+    "file": "reports/252.md"
+  },
+  {
+    "id": "253",
+    "title": "GitHub",
+    "url": "https://github.com/SWE-agent/SWE-agent",
+    "organization": "如果人类用户需要专门设计的 IDE 来高效编程，那么 LLM Agent 作",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "Agent 与计算机环境之间的交互接口设计",
+      "SWE-bench"
+    ],
+    "summary": "基本信息 | 项目 | 详情 | |------|------| | **全称** | SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering |",
+    "file": "reports/253.md"
+  },
+  {
+    "id": "254",
+    "title": "CogAgent",
+    "url": "https://github.com/zai-org/CogAgent",
+    "organization": "zai-org",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "LangChain"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "CVPR 2024 Highlight（Top 3%）|",
+      "纯文本Agent在真实世界中面临根本性瓶颈",
+      "缺乏标准交互API"
+    ],
+    "summary": "医学影像分析（整体病灶+细胞级细节）、遥感图像解译（地形+目标检测）、文档理解（版面+文字识别）等。",
+    "file": "reports/254.md"
+  },
+  {
+    "id": "255",
+    "title": "LangGraph",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "LangChain",
+      "ReAct"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "生产级 Agent 编排框架",
+      "线性链式结构的局限性",
+      "多 Agent 协作的复杂性"
+    ],
+    "summary": "项目背景与问题定义 LangGraph 是 LangChain 团队于 2024 年推出的**生产级 Agent 编排框架**，旨在解决 LangChain 原有框架\"易上手但难定制、难扩展\"的核心痛点。经过两年发展，已被 LinkedIn",
+    "file": "reports/255.md"
+  },
+  {
+    "id": "256",
+    "title": "Report #256",
+    "url": "",
+    "organization": "如何让 LLM 准确地调用海量 API（工具）来完成复杂任务？",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT",
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "如何让 LLM 准确地调用海量 API（工具）来完成复杂任务？",
+      "参数幻觉（Parameter Hallucination）",
+      "语义错误（Semantic Error）"
+    ],
+    "summary": "项目背景与问题定义 Gorilla 是 UC Berkeley 于 2023 年 5 月发布的开创性项目，由 Shishir G. Patil 团队主导。它解决的核心问题是：**如何让 LLM 准确地调用海量 API（工具）来完成复杂任务？",
+    "file": "reports/256.md"
+  },
+  {
+    "id": "257",
+    "title": "GitHub",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "openai"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "单一Prompt难以承载复杂业务逻辑"
+    ],
+    "summary": "在大模型应用落地过程中，开发者面临一个核心矛盾：**单一Prompt难以承载复杂业务逻辑**。当系统需要处理客服分流、多步骤工作流、专业领域问答等场景时，把所有指令塞进一个system prompt会导致：",
+    "file": "reports/257.md"
+  },
+  {
+    "id": "258",
+    "title": "CAMEL",
+    "url": "",
+    "organization": "当前基于对话的大语言模型在复杂任务求解上取得了显著进展，但高度依赖人类输入来",
+    "stars": 2,
+    "category": "多智能体",
+    "score": 6.5,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "高度依赖人类输入来引导对话流程",
+      "致力于发现Agent Scaling Laws（智能体缩放定律）的研究型社区",
+      "角色扮演框架"
+    ],
+    "summary": "背景与动机 CAMEL（Communicative Agents for Machine Learning）是由新加坡南洋理工大学（NTU）团队于2023年3月提出的多智能体协作框架，论文被NeurIPS 2023接收。其核心动机源于一个关",
+    "file": "reports/258.md"
+  },
+  {
+    "id": "259",
+    "title": "#259 MetaGPT",
+    "url": "",
+    "organization": "> Code = SOP(Team) — 将标准化操作流程（SOP）编码",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "Multi-Agent"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "《Meta Programming for A Multi-Agent Collaborative Framework》",
+      "Code = SOP(Team)",
+      "级联幻觉（cascading hallucinations）"
+    ],
+    "summary": "背景与动机 MetaGPT由深维智信（DeepWisdom）团队于2023年8月开源，核心论文**《Meta Programming for A Multi-Agent Collaborative Framework》**被ICLR 202",
+    "file": "reports/259.md"
+  },
+  {
+    "id": "260",
+    "title": "GitHub",
+    "url": "",
+    "organization": "",
+    "stars": 35000,
+    "category": "编码框架",
+    "score": 9.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "",
+    "license": "MIT",
+    "key_innovations": [
+      "作者/团队"
+    ],
+    "summary": "在 AI 编程助手爆发式增长的背景下，主流方案（GitHub Copilot、Cursor）都深度绑定 IDE 或编辑器界面。这带来三个根本性问题：",
+    "file": "reports/260.md"
+  },
+  {
+    "id": "261",
+    "title": "Report #261",
+    "url": "",
+    "organization": "上海AI Lab、华东师范大学、普林斯顿大学、香港大学",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Memory"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "论文信息：",
+      "作者团队：",
+      "核心问题："
+    ],
+    "summary": "项目背景与问题定义 **论文信息：** OS-Copilot: Towards Generalist Computer Agents with Self-Improvement (arXiv:2402.07456, 2024年2月) **作",
+    "file": "reports/261.md"
+  },
+  {
+    "id": "262",
+    "title": "3.1 整体架构：端到端 MLLM + Think-Plan-Act 范式",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "LLM",
+      "CoT"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "论文链接：",
+      "官方页面："
+    ],
+    "summary": "1. **粗定位**：在全图上预测大致区域",
+    "file": "reports/262.md"
+  },
+  {
+    "id": "263",
+    "title": "3.1 整体架构：视觉-文本双通道 + ReAct 推理循环",
+    "url": "https://github.com/MinorJerry/WebVoyager",
+    "organization": "MinorJerry",
+    "stars": 3500,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "ReAct"
+    ],
+    "language": "JavaScript",
+    "license": "",
+    "key_innovations": [
+      "论文链接：",
+      "代码/数据："
+    ],
+    "summary": "** 它不是成功率最高的，也不是功能最全的，但它是最早系统性地回答了**\"如何用纯视觉方式在真实网络上构建端到端 Agent\"**这一基础问题的工作，并且同时给出了创新的评估方案。",
+    "file": "reports/263.md"
+  },
+  {
+    "id": "264",
+    "title": "3.1 设计哲学：极简原语 + Python 原生",
+    "url": "https://github.com/openai/openai-agents-python",
+    "organization": "OpenAI",
+    "stars": 19000,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "OpenAI",
+      "openai",
+      "LangGraph",
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "官方文档：",
+      "发布时间："
+    ],
+    "summary": "项目基本信息 - **项目名称：** OpenAI Agents SDK - **GitHub 仓库：** <https://github.com/openai/openai-agents-python> - **官方文档：** <http",
+    "file": "reports/264.md"
+  },
+  {
+    "id": "265",
+    "title": "Report #265",
+    "url": "https://github.com/entropy-research/Devon",
+    "organization": "Entropy Research（社区驱动）",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "GPL-3.0",
+    "key_innovations": [
+      "开发组织：",
+      "开源协议："
+    ],
+    "summary": "** 开源 AI 结对编程助手（Open-Source Pair Programmer）",
+    "file": "reports/265.md"
+  },
+  {
+    "id": "266",
+    "title": "Report #266",
+    "url": "https://github.com/RunMaestro/Maestro",
+    "organization": "RunMaestro（开源组织）",
+    "stars": 2681,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "Claude",
+      "OpenAI",
+      "TypeScript"
+    ],
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "key_innovations": [
+      "开发组织：",
+      "开源协议："
+    ],
+    "summary": "** 跨平台桌面端 AI Agent 编排指挥中心（Agent Orchestration Command Center）",
+    "file": "reports/266.md"
+  },
+  {
+    "id": "267",
+    "title": "Report #267",
+    "url": "https://github.com/camel-ai/owl",
+    "organization": "CAMEL-AI 开源社区 + 香港大学（HKU）",
+    "stars": 10000,
+    "category": "多智能体",
+    "score": 7.5,
+    "tags": [
+      "Multi-Agent"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "开发组织：",
+      "开源协议："
+    ],
+    "summary": "** 层次化多智能体协作框架，通过\"规划-协调-执行\"解耦实现跨领域通用任务自动化",
+    "file": "reports/267.md"
+  },
+  {
+    "id": "268",
+    "title": "Report #268",
+    "url": "https://github.com/agno-agi/agno",
+    "organization": "Agno AI（独立开源团队）",
+    "stars": 2026,
+    "category": "运行时框架",
+    "score": 7.0,
+    "tags": [
+      "LangGraph",
+      "OpenAI",
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "开发组织：",
+      "开源协议："
+    ],
+    "summary": "** 全栈 Agentic 软件运行时——从单 Agent 构建到多 Agent 编排再到生产部署的一站式平台",
+    "file": "reports/268.md"
+  },
+  {
+    "id": "269",
+    "title": "Report #269",
+    "url": "https://github.com/elizaos/eliza",
+    "organization": "ai16z DAO（Eliza Labs）+ 全球开源社区",
+    "stars": 100000,
+    "category": "浏览器代理",
+    "score": 9.5,
+    "tags": [
+      "TypeScript"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "开发组织：",
+      "开源协议："
+    ],
+    "summary": "** Web3 原生的 AI Agent 操作系统——从聊天机器人到自主交易 Agent 到游戏 NPC 的一站式构建平台",
+    "file": "reports/269.md"
+  },
+  {
+    "id": "270",
+    "title": "Report #270",
+    "url": "https://github.com/openai/symphony",
+    "organization": "OpenAI（官方发布）",
+    "stars": 14916,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "OpenAI",
+      "openai"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "开发组织：",
+      "开源协议："
+    ],
+    "summary": "** 将项目工作转化为隔离的、自主的实现运行——让团队管理工作，而不是监督编码 Agent",
+    "file": "reports/270.md"
+  },
+  {
+    "id": "271",
+    "title": "问题本质",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "GUI-Agent",
+    "score": 7.0,
+    "tags": [
+      "GPT"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "纯视觉屏幕解析模块",
+      "大视觉语言模型（VLM）在 GUI 自动化场景中的\"感知-行动鸿沟\"",
+      "可交互元素定位不准"
+    ],
+    "summary": "VLM 难以从复杂 UI 截图中精确识别哪些区域是可点击/可操作的图标或按钮。高分辨率屏幕上的小图标（如工具栏按钮、菜单项）尤其容易被忽略或误定位。",
+    "file": "reports/271.md"
+  }
+]
