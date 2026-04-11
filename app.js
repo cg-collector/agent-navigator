@@ -347,17 +347,24 @@ class AgentNavigator {
     window.history.pushState(null, '', '#' + params.toString());
 
     // Fetch and render markdown
+    // item.file is like "reports/001.md" (relative to data/ directory)
     if (item.file) {
       try {
-        const res = await fetch(`data/reports/${item.file}`);
+        // item.file is relative to data/ so prefix with "data/"
+        const res = await fetch('data/' + item.file);
         if (res.ok) {
           const md = await res.text();
-          bodyEl.innerHTML = marked.parse(md);
+          if (typeof marked !== 'undefined' && marked.parse) {
+            bodyEl.innerHTML = marked.parse(md);
+          } else {
+            // Fallback: render as preformatted text if marked.js failed to load
+            bodyEl.innerHTML = '<pre style="white-space:pre-wrap;font-size:0.9rem;line-height:1.6;">' + md.replace(/</g, '&lt;') + '</pre>';
+          }
         } else {
-          bodyEl.innerHTML = '<p style="color:var(--text-muted);">报告文件未找到</p>';
+          bodyEl.innerHTML = `<p style="color:var(--text-muted);">报告文件未找到 (HTTP ${res.status})<br><small>路径: data/${item.file}</small></p>`;
         }
-      } catch {
-        bodyEl.innerHTML = '<p style="color:var(--text-muted);">报告加载失败</p>';
+      } catch (err) {
+        bodyEl.innerHTML = `<p style="color:var(--text-muted);">报告加载失败: ${err.message}<br><small>路径: data/${item.file}</small></p>`;
       }
     } else {
       bodyEl.innerHTML = `<p style="color:var(--text-muted);margin-bottom:12px;">${item.summary || '暂无详细报告'}</p>`;
