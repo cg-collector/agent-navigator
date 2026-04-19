@@ -19,13 +19,28 @@
       <div class="search-wrapper">
         <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
         <input type="text" id="searchInput" placeholder="搜索项目、标签、组织... (按 / 聚焦)" autocomplete="off">
+        <button class="search-clear" id="searchClear" title="清除搜索">✕</button>
       </div>
     </div>
     <div class="nav-right">
+      <!-- 视图切换 -->
+      <div class="view-toggle" id="viewToggle">
+        <button class="view-btn active" data-view="grid" title="网格视图">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1.5"/><rect x="9" y="1" width="6" height="6" rx="1.5"/><rect x="1" y="9" width="6" height="6" rx="1.5"/><rect x="9" y="9" width="6" height="6" rx="1.5"/></svg>
+        </button>
+        <button class="view-btn" data-view="list" title="列表视图">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="2" width="14" height="2.5" rx="1"/><rect x="1" y="6.75" width="14" height="2.5" rx="1"/><rect x="1" y="11.5" width="14" height="2.5" rx="1"/></svg>
+        </button>
+      </div>
+      <!-- 高级筛选 -->
+      <button class="filter-toggle-btn" id="filterToggleBtn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+        筛选
+      </button>
       <select id="sortSelect" class="sort-select">
-        <option value="score">按评分 ↓</option>
-        <option value="stars">按 Stars ↓</option>
-        <option value="id">按 ID ↑</option>
+        <option value="score">评分 ↓</option>
+        <option value="stars">Stars ↓</option>
+        <option value="id">ID ↑</option>
       </select>
     </div>
   </nav>
@@ -41,6 +56,31 @@
     <button class="tag-btn" data-category="浏览器代理">浏览器代理</button>
     <button class="tag-btn" data-category="运行时框架">运行时框架</button>
     <button class="tag-btn" data-category="其他">其他</button>
+  </div>
+
+  <!-- 高级筛选面板 -->
+  <div class="advanced-filter-panel" id="advancedFilterPanel">
+    <div class="afp-inner">
+      <div class="afp-section">
+        <div class="afp-section-title">语言</div>
+        <div class="afp-chips" id="filterLanguages"></div>
+      </div>
+      <div class="afp-section">
+        <div class="afp-section-title">协议</div>
+        <div class="afp-chips" id="filterLicenses"></div>
+      </div>
+      <div class="afp-section">
+        <div class="afp-section-title">评分范围</div>
+        <div class="afp-range">
+          <input type="range" id="scoreRangeMin" min="0" max="10" step="0.5" value="0">
+          <span id="scoreRangeLabel">0 – 10</span>
+          <input type="range" id="scoreRangeMax" min="0" max="10" step="0.5" value="10">
+        </div>
+      </div>
+      <div class="afp-actions">
+        <button class="afp-reset-btn" id="filterResetBtn">重置筛选</button>
+      </div>
+    </div>
   </div>
 
   <!-- 主内容区 -->
@@ -88,7 +128,7 @@
     </div>
   </aside>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="libs/marked.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -193,7 +193,6 @@
     "language": "Python",
     "license": "Apache 2.0",
     "key_innovations": [
-      "语言支持:",
       "code-first（代码优先）"
     ],
     "summary": "Google ADK 是 Google 于 2025 年推出的开源 Agent 开发工具包，支持 Python、TypeScript、Go、Java 四种语言。它的核心定位是提供一个 **code-first（代码优先）** 的框架，用于构",

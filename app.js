@@ -7,10 +7,23 @@ class AgentNavigator {
     this.activeCategory = 'all';
     this.searchQuery = '';
     this.sortField = 'score';
+    this.viewMode = localStorage.getItem('agentNavView') || 'grid';
     this.currentReportId = null;
+
+    // Advanced filters
+    this.selectedLanguages = new Set();
+    this.selectedLicenses = new Set();
+    this.scoreRangeMin = 0;
+    this.scoreRangeMax = 10;
+    this.advancedPanelOpen = false;
+
+    // Unique values extracted from data
+    this.allLanguages = [];
+    this.allLicenses = [];
 
     // DOM refs
     this.searchInput = document.getElementById('searchInput');
+    this.searchClear = document.getElementById('searchClear');
     this.sortSelect = document.getElementById('sortSelect');
     this.cardGrid = document.getElementById('cardGrid');
     this.skeletonGrid = document.getElementById('skeletonGrid');
@@ -20,6 +33,15 @@ class AgentNavigator {
     this.detailPanel = document.getElementById('detailPanel');
     this.detailOverlay = document.getElementById('detailOverlay');
     this.closeDetailBtn = document.getElementById('closeDetailBtn');
+    this.viewToggle = document.getElementById('viewToggle');
+    this.filterToggleBtn = document.getElementById('filterToggleBtn');
+    this.advancedFilterPanel = document.getElementById('advancedFilterPanel');
+    this.filterLanguages = document.getElementById('filterLanguages');
+    this.filterLicenses = document.getElementById('filterLicenses');
+    this.scoreRangeMinInput = document.getElementById('scoreRangeMin');
+    this.scoreRangeMaxInput = document.getElementById('scoreRangeMax');
+    this.scoreRangeLabel = document.getElementById('scoreRangeLabel');
+    this.filterResetBtn = document.getElementById('filterResetBtn');
 
     this.init();
   }
@@ -27,6 +49,7 @@ class AgentNavigator {
   init() {
     this.bindEvents();
     this.parseHash();
+    this.applyViewMode();
     this.loadData();
   }
 
@@ -34,12 +57,23 @@ class AgentNavigator {
     // Search with debounce
     let searchTimer;
     this.searchInput.addEventListener('input', (e) => {
+      this.searchClear.style.display = e.target.value ? 'flex' : 'none';
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => {
         this.searchQuery = e.target.value.trim().toLowerCase();
         this.applyFilters();
         this.updateHash();
       }, 300);
+    });
+
+    // Search clear button
+    this.searchClear.addEventListener('click', () => {
+      this.searchInput.value = '';
+      this.searchQuery = '';
+      this.searchClear.style.display = 'none';
+      this.applyFilters();
+      this.updateHash();
+      this.searchInput.focus();
     });
 
     // Sort
@@ -59,6 +93,31 @@ class AgentNavigator {
       this.updateHash();
     });
 
+    // View toggle
+    this.viewToggle.addEventListener('click', (e) => {
+      const btn = e.target.closest('.view-btn');
+      if (!btn) return;
+      this.viewMode = btn.dataset.view;
+      localStorage.setItem('agentNavView', this.viewMode);
+      this.applyViewMode();
+    });
+
+    // Advanced filter panel toggle
+    this.filterToggleBtn.addEventListener('click', () => {
+      this.advancedPanelOpen = !this.advancedPanelOpen;
+      this.advancedFilterPanel.classList.toggle('open', this.advancedPanelOpen);
+      this.filterToggleBtn.classList.toggle('active', this.advancedPanelOpen);
+    });
+
+    // Score range
+    this.scoreRangeMinInput.addEventListener('input', () => this.applyScoreRange());
+    this.scoreRangeMaxInput.addEventListener('input', () => this.applyScoreRange());
+    this.scoreRangeMinInput.addEventListener('change', () => this.applyFilters());
+    this.scoreRangeMaxInput.addEventListener('change', () => this.applyFilters());
+
+    // Filter reset
+    this.filterResetBtn.addEventListener('click', () => this.resetAdvancedFilters());
+
     // Card clicks (delegated)
     this.cardGrid.addEventListener('click', (e) => {
       const tag = e.target.closest('.card-tag');
@@ -66,6 +125,7 @@ class AgentNavigator {
         e.stopPropagation();
         this.searchInput.value = tag.textContent.trim();
         this.searchQuery = tag.textContent.trim().toLowerCase();
+        this.searchClear.style.display = 'flex';
         this.activeCategory = 'all';
         this.tagsBar.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
         document.querySelector('[data-category="all"]').classList.add('active');
@@ -87,7 +147,7 @@ class AgentNavigator {
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') this.closeDetail();
-      if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) {
+      if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
         e.preventDefault();
         this.searchInput.focus();
         this.searchInput.select();
@@ -98,6 +158,29 @@ class AgentNavigator {
     window.addEventListener('hashchange', () => this.parseHash());
   }
 
+  applyScoreRange() {
+    const min = parseFloat(this.scoreRangeMinInput.value);
+    const max = parseFloat(this.scoreRangeMaxInput.value);
+    if (min > max) {
+      this.scoreRangeMaxInput.value = min;
+    }
+    const displayMin = parseFloat(this.scoreRangeMinInput.value);
+    const displayMax = parseFloat(this.scoreRangeMaxInput.value);
+    this.scoreRangeLabel.textContent = `${displayMin} – ${displayMax}`;
+  }
+
+  resetAdvancedFilters() {
+    this.selectedLanguages.clear();
+    this.selectedLicenses.clear();
+    this.scoreRangeMin = 0;
+    this.scoreRangeMax = 10;
+    this.scoreRangeMinInput.value = 0;
+    this.scoreRangeMaxInput.value = 10;
+    this.scoreRangeLabel.textContent = '0 – 10';
+    this.renderAdvancedFilterChips();
+    this.applyFilters();
+  }
+
   parseHash() {
     const hash = window.location.hash.slice(1);
     const params = new URLSearchParams(hash);
@@ -105,9 +188,11 @@ class AgentNavigator {
     if (params.has('search')) {
       this.searchQuery = params.get('search').toLowerCase();
       this.searchInput.value = params.get('search');
+      this.searchClear.style.display = params.get('search') ? 'flex' : 'none';
     } else {
       this.searchQuery = '';
       this.searchInput.value = '';
+      this.searchClear.style.display = 'none';
     }
 
     if (params.has('category')) {
@@ -144,12 +229,67 @@ class AgentNavigator {
       const res = await fetch('data/index.json');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       this.allData = await res.json();
+
+      // Extract unique languages and licenses
+      const langSet = new Set();
+      const licSet = new Set();
+      this.allData.forEach(d => {
+        if (d.language) langSet.add(d.language);
+        if (d.license) licSet.add(d.license);
+      });
+      this.allLanguages = [...langSet].sort();
+      this.allLicenses = [...licSet].sort();
+
+      // Render advanced filter chips
+      this.renderAdvancedFilterChips();
+
       this.skeletonGrid.style.display = 'none';
       this.applyFilters();
     } catch (err) {
       console.error('Failed to load data:', err);
       this.skeletonGrid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px;">数据加载失败，请确保 data/index.json 存在</p>';
     }
+  }
+
+  renderAdvancedFilterChips() {
+    // Languages
+    this.filterLanguages.innerHTML = this.allLanguages.map(lang => {
+      const sel = this.selectedLanguages.has(lang);
+      return `<button class="chip-btn ${sel ? 'active' : ''}" data-lang="${lang}">${lang}</button>`;
+    }).join('');
+
+    // Licenses
+    this.filterLicenses.innerHTML = this.allLicenses.map(lic => {
+      const sel = this.selectedLicenses.has(lic);
+      return `<button class="chip-btn ${sel ? 'active' : ''}" data-lic="${lic}">${lic}</button>`;
+    }).join('');
+
+    // Bind chip clicks
+    this.filterLanguages.querySelectorAll('.chip-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        if (this.selectedLanguages.has(lang)) {
+          this.selectedLanguages.delete(lang);
+        } else {
+          this.selectedLanguages.add(lang);
+        }
+        btn.classList.toggle('active', this.selectedLanguages.has(lang));
+        this.applyFilters();
+      });
+    });
+
+    this.filterLicenses.querySelectorAll('.chip-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lic = btn.dataset.lic;
+        if (this.selectedLicenses.has(lic)) {
+          this.selectedLicenses.delete(lic);
+        } else {
+          this.selectedLicenses.add(lic);
+        }
+        btn.classList.toggle('active', this.selectedLicenses.has(lic));
+        this.applyFilters();
+      });
+    });
   }
 
   applyFilters() {
@@ -164,6 +304,18 @@ class AgentNavigator {
     return this.allData.filter(item => {
       // Category filter
       if (category !== 'all' && item.category !== category) return false;
+
+      // Language filter
+      if (this.selectedLanguages.size > 0 && !this.selectedLanguages.has(item.language)) return false;
+
+      // License filter
+      if (this.selectedLicenses.size > 0 && item.license && !this.selectedLicenses.has(item.license)) return false;
+
+      // Score range filter
+      const score = item.score || 0;
+      const minScore = parseFloat(this.scoreRangeMinInput.value);
+      const maxScore = parseFloat(this.scoreRangeMaxInput.value);
+      if (score < minScore || score > maxScore) return false;
 
       // Search filter
       if (!query) return true;
@@ -186,10 +338,10 @@ class AgentNavigator {
     const sorted = [...data];
     switch (field) {
       case 'score':
-        sorted.sort((a, b) => (b.score || 0) - (a.score || 0));
+        sorted.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
         break;
       case 'stars':
-        sorted.sort((a, b) => (b.stars || 0) - (a.stars || 0));
+        sorted.sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0));
         break;
       case 'id':
         sorted.sort((a, b) => parseInt(a.id, 10) - parseInt(b.id, 10));
@@ -200,8 +352,7 @@ class AgentNavigator {
 
   highlight(text, query) {
     if (!query || !text) return text || '';
-    // Escape HTML first to prevent XSS, then do highlight
-    const esc = (s) => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     try {
       const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const re = new RegExp(`(${escaped})`, 'gi');
@@ -231,6 +382,13 @@ class AgentNavigator {
     return map[cat] || 'cat-其他';
   }
 
+  applyViewMode() {
+    this.viewToggle.querySelectorAll('.view-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.view === this.viewMode);
+    });
+    this.cardGrid.dataset.view = this.viewMode;
+  }
+
   renderCards(data) {
     if (data.length === 0) {
       this.cardGrid.innerHTML = '';
@@ -248,7 +406,6 @@ class AgentNavigator {
         `<span class="card-tag">${this.highlight(t, this.searchQuery)}</span>`
       ).join('');
 
-      // Build footer meta row: org + language + stars
       const metaParts = [];
       if (item.organization && !item.organization.startsWith('**') && !item.organization.startsWith('-') && !item.organization.startsWith('1.') && !item.organization.startsWith('2.')) {
         metaParts.push(`<span class="card-meta-item">🏢 ${this.highlight(item.organization, this.searchQuery)}</span>`);
@@ -260,20 +417,36 @@ class AgentNavigator {
         metaParts.push(`<span class="card-stars">⭐ ${item.stars.toLocaleString()}</span>`);
       }
 
+      const metaHtml = metaParts.length ? `<div class="card-meta">${metaParts.join('')}</div>` : '';
+
+      // List view specific
+      const listMeta = `
+        <div class="list-meta-row">
+          ${item.organization && !item.organization.startsWith('**') && !item.organization.startsWith('-') ? `<span class="list-meta-item">🏢 ${this.highlight(item.organization, this.searchQuery)}</span>` : ''}
+          ${item.language ? `<span class="list-meta-item">💻 ${item.language}</span>` : ''}
+          ${item.license ? `<span class="list-meta-item">📄 ${item.license}</span>` : ''}
+          ${item.stars ? `<span class="list-meta-item">⭐ ${item.stars.toLocaleString()}</span>` : ''}
+          ${item.score != null ? `<span class="list-score">${item.score}</span>` : ''}
+        </div>
+        <div class="list-tags">${tagsHtml}</div>
+      `;
+
       return `
         <article class="card" data-id="${item.id}">
           <div class="card-header">
             <h3 class="card-title">${titleHl}</h3>
-            ${item.score != null ? `<span class="card-score">${item.score}</span>` : ''}
+            ${item.score != null && this.viewMode === 'grid' ? `<span class="card-score">${item.score}</span>` : ''}
           </div>
           <div class="card-category ${catClass}">
             <span class="cat-dot"></span>${item.category || '其他'}
           </div>
           <p class="card-summary">${summaryHl}</p>
-          <div class="card-footer">
-            <div class="card-tags">${tagsHtml}</div>
-          </div>
-          ${metaParts.length ? `<div class="card-meta">${metaParts.join('')}</div>` : ''}
+          ${this.viewMode === 'grid' ? `
+            <div class="card-footer">
+              <div class="card-tags">${tagsHtml}</div>
+            </div>
+            ${metaHtml}
+          ` : listMeta}
         </article>
       `;
     }).join('');
@@ -294,12 +467,19 @@ class AgentNavigator {
       '运行时框架': '#ef4444', '其他': '#6b7280'
     };
 
-    let html = `<strong>共 ${total} 个项目</strong>`;
+    let html = `<strong>${total} 个项目</strong>`;
     if (showing < total) html += ` · 显示 <strong>${showing}</strong> 个`;
-    html += ' &nbsp;|&nbsp; ';
 
+    // Show active filter badges
+    const activeFilters = [];
+    if (this.selectedLanguages.size > 0) activeFilters.push(`语言: ${[...this.selectedLanguages].join(', ')}`);
+    if (this.selectedLicenses.size > 0) activeFilters.push(`协议: ${[...this.selectedLicenses].join(', ')}`);
+    if (this.scoreRangeMin > 0 || this.scoreRangeMax < 10) activeFilters.push(`评分: ${this.scoreRangeMin}–${this.scoreRangeMax}`);
+    if (activeFilters.length) html += ` &nbsp;|&nbsp; <span style="color:var(--accent-start)">筛选中: ${activeFilters.join(' · ')}</span>`;
+
+    html += ' &nbsp;|&nbsp; ';
     const parts = Object.entries(counts).map(([c, n]) =>
-      `<span class="stat-item"><span class="dot" style="background:${catColors[c]||'#888'}"></span>${c}: ${n}</span>`
+      `<span class="stat-item"><span class="dot" style="background:${catColors[c] || '#888'}"></span>${c}: ${n}</span>`
     );
     html += parts.join('');
 
@@ -311,10 +491,8 @@ class AgentNavigator {
     const item = this.allData.find(d => d.id === id);
     if (!item) return;
 
-    // Update header
     document.getElementById('detailTitle').textContent = item.title || id;
 
-    // Build meta
     const catClass = this.getCategoryClass(item.category);
     const metaHtml = `
       <div class="meta-row">
@@ -322,7 +500,7 @@ class AgentNavigator {
         <span class="meta-value"><span class="card-category ${catClass}" style="font-size:0.78rem;"><span class="cat-dot"></span>${item.category || '其他'}</span></span>
       </div>
       ${item.organization ? `<div class="meta-row"><span class="meta-label">组织</span><span class="meta-value">${item.organization}</span></div>` : ''}
-      ${item.url ? `<div class="meta-row"><span class="meta-label">链接</span><span class="meta-value"><a href="${item.url}" target="_blank" rel="noopener">${item.url.replace(/^https?:\/\//,'')}</a></span></div>` : ''}
+      ${item.url ? `<div class="meta-row"><span class="meta-label">链接</span><span class="meta-value"><a href="${item.url}" target="_blank" rel="noopener">${item.url.replace(/^https?:\/\//, '')}</a></span></div>` : ''}
       ${item.stars ? `<div class="meta-row"><span class="meta-label">Stars</span><span class="meta-value">⭐ ${item.stars.toLocaleString()}</span></div>` : ''}
       ${item.score != null ? `<div class="meta-row"><span class="meta-label">评分</span><span class="meta-value" style="color:var(--accent-start);font-weight:600;">${item.score}</span></div>` : ''}
       ${item.language ? `<div class="meta-row"><span class="meta-label">语言</span><span class="meta-value">${item.language}</span></div>` : ''}
@@ -332,32 +510,25 @@ class AgentNavigator {
     `;
     document.getElementById('detailMeta').innerHTML = metaHtml;
 
-    // Load report
     const bodyEl = document.getElementById('detailBody');
     bodyEl.innerHTML = '<div class="detail-loading">加载报告内容...</div>';
 
-    // Show panel
     this.detailPanel.classList.add('open');
     this.detailOverlay.classList.add('visible');
     document.body.style.overflow = 'hidden';
 
-    // Update hash without triggering full reload
     const params = new URLSearchParams(window.location.hash.slice(1));
     params.set('report', id);
     window.history.pushState(null, '', '#' + params.toString());
 
-    // Fetch and render markdown
-    // item.file is like "reports/001.md" (relative to data/ directory)
     if (item.file) {
       try {
-        // item.file is relative to data/ so prefix with "data/"
         const res = await fetch('data/' + item.file);
         if (res.ok) {
           const md = await res.text();
           if (typeof marked !== 'undefined' && marked.parse) {
             bodyEl.innerHTML = marked.parse(md);
           } else {
-            // Fallback: render as preformatted text if marked.js failed to load
             bodyEl.innerHTML = '<pre style="white-space:pre-wrap;font-size:0.9rem;line-height:1.6;">' + md.replace(/</g, '&lt;') + '</pre>';
           }
         } else {
@@ -377,7 +548,6 @@ class AgentNavigator {
     document.body.style.overflow = '';
     this.currentReportId = null;
 
-    // Remove report from hash
     const params = new URLSearchParams(window.location.hash.slice(1));
     params.delete('report');
     const newHash = params.toString();
@@ -385,7 +555,6 @@ class AgentNavigator {
   }
 }
 
-// Initialize
 document.addEventListener('DOMContentLoaded', () => {
   window.app = new AgentNavigator();
 });
