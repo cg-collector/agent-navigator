@@ -9209,5 +9209,115 @@
     ],
     "summary": "ReAct的AI Agent研究分析",
     "file": "reports/427.md"
+  },
+  {
+    "id": "428",
+    "title": "MemGPT",
+    "url": "",
+    "organization": "**将 LLM 视为操作系统，通过类比 OS 的内存层次结构来管理有限上下文窗口",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "LLM",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "项目名称：",
+      "论文出处：",
+      "当前公司："
+    ],
+    "summary": "- 可以连接用户的个人文档、笔记、邮件",
+    "file": "reports/428.md"
+  },
+  {
+    "id": "429",
+    "title": "CAMEL",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "> 探索构建**可扩展的技术**来促进 communicative agents",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "项目名称：",
+      "论文出处：",
+      "开源仓库："
+    ],
+    "summary": "大语言模型（LLM）在复杂任务解决上展现了强大能力，但这些成功**高度依赖人类输入来引导对话**。人类需要扮演\"导演\"角色，不断给出指令、纠正方向、维持对话主题。这种人工引导存在以下挑战：",
+    "file": "reports/429.md"
+  },
+  {
+    "id": "430",
+    "title": "AI Agent 项目研究报告 #430",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "MCP",
+      "Anthropic",
+      "LLM",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "主题方向",
+      "报告编号",
+      "与外部数据和工具的隔离"
+    ],
+    "summary": "AI Agent 项目研究报告 #430的AI Agent研究分析",
+    "file": "reports/430.md"
+  },
+  {
+    "id": "431",
+    "title": "AI Agent 项目研究报告 #431",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "主题方向",
+      "报告编号",
+      "能力单一"
+    ],
+    "summary": "多Agent协作通过**角色分工 + 消息交换**解决上述问题：每个Agent专注单一职责，通过结构化通信协作完成任务。",
+    "file": "reports/431.md"
+  },
+  {
+    "id": "432",
+    "title": "Voyager",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "报告编号",
+      "论文来源",
+      "操作粒度原始"
+    ],
+    "summary": "构建能在开放世界中持续探索、规划和学习新技能的通用具身智能体，是AI领域的核心挑战之一。传统方法依赖强化学习(RL)和模仿学习，但存在以下根本性局限：",
+    "file": "reports/432.md"
   }
 ]
