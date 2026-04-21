@@ -9319,5 +9319,378 @@
     ],
     "summary": "构建能在开放世界中持续探索、规划和学习新技能的通用具身智能体，是AI领域的核心挑战之一。传统方法依赖强化学习(RL)和模仿学习，但存在以下根本性局限：",
     "file": "reports/432.md"
+  },
+  {
+    "id": "433",
+    "title": "MemGPT",
+    "url": "",
+    "organization": "Charles Packer, Sarah Wooders, Kevin Lin",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "GPT",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "报告编号：433",
+      "论文：Towards LLMs as Operating Systems (arXiv:2310.08560)",
+      "完成时间：2026-04-20"
+    ],
+    "summary": "MemGPT的AI Agent研究分析",
+    "file": "reports/433.md"
+  },
+  {
+    "id": "434",
+    "title": "CAMEL",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "** Guohao Li, Hussain Dahham, Zhiqiang S",
+    "stars": 20000,
+    "category": "多智能体",
+    "score": 8.0,
+    "tags": [
+      "LLM",
+      "LangGraph"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "项目编号：",
+      "论文标题：",
+      "作者团队："
+    ],
+    "summary": "CAMEL 试图回答一个关键问题：**如何让多个大语言模型（LLM）智能体在没有人类干预的情况下，自主协作解决复杂任务？**",
+    "file": "reports/434.md"
+  },
+  {
+    "id": "435",
+    "title": "第435份AI Agent研究报告",
+    "url": "https://github.com/joonspk-research/generative_agents",
+    "organization": "Joon Sung Park, Joseph C. O'Brien, Carri",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "长时间跨度",
+      "Generative Agents（生成式智能体）",
+      "发表会议"
+    ],
+    "summary": "研究主题：基于LLM的生成式智能体——记忆、反思与规划架构  \n> 研究日期：2026-04-20  \n> 原始论文：Park et al., \"Generative Agents: Interactive Simulacra of Hum",
+    "file": "reports/435.md"
+  },
+  {
+    "id": "436",
+    "title": "研究报告 #436",
+    "url": "",
+    "organization": "Charles Packer 等，UC Berkeley",
+    "stars": 2026,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT",
+      "RAG"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "主题：AI Agent 长期记忆架构",
+      "论文出处：arXiv:2310.08560，UC Berkeley，2023年10月",
+      "完成时间：2026-04-20"
+    ],
+    "summary": "大语言模型（LLM）拥有卓越的语言理解和生成能力，但受到**有限上下文窗口（context window）**的根本制约。以 GPT-4 Turbo 为例，其上下文窗口约为 128K tokens，表面上不小，但随着对话时间增长：",
+    "file": "reports/436.md"
+  },
+  {
+    "id": "437",
+    "title": "第437份研究报告",
+    "url": "https://github.com/camel-ai/camel（持续活跃维护）",
+    "organization": "camel-ai",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "CAMEL",
+      "KAUST（阿卜杜拉国王科技大学）的Guohao Li团队",
+      "在大语言模型（LLM）时代，多个LLM Agent之间的通信与协作尚未被充分探索。"
+    ],
+    "summary": "研究员：楠楠 | 日期：2026-04-20 | 主题：多Agent协作 — CAMEL框架",
+    "file": "reports/437.md"
+  },
+  {
+    "id": "438",
+    "title": "MemGPT 研究报告",
+    "url": "https://github.com/cpacker/MemGPT",
+    "organization": "** Charles Packer, et al. (UC Berkeley /",
+    "stars": 0,
+    "category": "其他",
+    "score": 7.0,
+    "tags": [
+      "LLM",
+      "GPT"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "报告编号：",
+      "主题分类：",
+      "有限上下文窗口"
+    ],
+    "summary": "大语言模型（LLM）虽然能力强大，但受到**有限上下文窗口**的严重制约：\n- GPT-4 标准版：8,192 tokens\n- GPT-4 Turbo：128,000 tokens\n- GPT-3.5 Turbo：16,385 token",
+    "file": "reports/438.md"
+  },
+  {
+    "id": "439",
+    "title": "MemGPT",
+    "url": "https://github.com/cpacker/MemGPT",
+    "organization": "**不应当尝试无限扩大上下文窗口，而应思考如何在有限窗口内高效利用上下文**。解",
+    "stars": 0,
+    "category": "工具链",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "两个核心矛盾：",
+      "不应当尝试无限扩大上下文窗口，而应思考如何在有限窗口内高效利用上下文"
+    ],
+    "summary": "定期生成外部记忆摘要，减少token消耗",
+    "file": "reports/439.md"
+  },
+  {
+    "id": "440",
+    "title": "AI Agent 研究报告 #440",
+    "url": "https://github.com/camel-ai/camel",
+    "organization": "**scaling up multi-agent systems 是通往AGI的",
+    "stars": 2026,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "报告日期：",
+      "报告编号：",
+      "首个系统性地探索大规模LLM多Agent自主协作"
+    ],
+    "summary": "CAMEL（前称\"骆驼\")由CAMEL-AI开源社区开发，首次发表于2023年3月（arXiv: 2303.17760），是**首个系统性地探索大规模LLM多Agent自主协作**的开源框架。",
+    "file": "reports/440.md"
+  },
+  {
+    "id": "441",
+    "title": "AutoGen 多Agent对话框架",
+    "url": "https://github.com/microsoft/autogen",
+    "organization": "microsoft",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "对话（Chat）"
+    ],
+    "summary": "AutoGen 是微软开源的多Agent对话框架，最初由微软研究院（Microsoft Research）于2023年发布。它的核心目标是让开发者能够通过多个可对话的Agent（由LLM、工具或人类驱动）自动协作来完成复杂任务。AutoGe",
+    "file": "reports/441.md"
+  },
+  {
+    "id": "442",
+    "title": "AutoGen v0.4",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "Python",
+    "license": "MPL",
+    "key_innovations": [
+      "2023年",
+      "对话协作",
+      "完全重写"
+    ],
+    "summary": "研究员：楠楠 | 日期：2026-04-20 | 编号：442",
+    "file": "reports/442.md"
+  },
+  {
+    "id": "443",
+    "title": "SWE",
+    "url": "",
+    "organization": "2405.15793），被引用量在 AI Agent 领域排名前列。",
+    "stars": 0,
+    "category": "编码框架",
+    "score": 7.0,
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "LLM",
+      "Claude"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "SWE-agent",
+      "普林斯顿大学 & 斯坦福大学",
+      "NeurIPS 2024"
+    ],
+    "summary": "研究员：楠楠｜日期：2026-04-20｜深度等级：深度研究",
+    "file": "reports/443.md"
+  },
+  {
+    "id": "444",
+    "title": "OpenHands",
+    "url": "https://github.com/All-Hands-AI/openhands",
+    "organization": "Agent SDK（核心抽象）、Tool Package（工具实现）、Works",
+    "stars": 64000,
+    "category": "编码框架",
+    "score": 9.5,
+    "tags": [
+      "llm",
+      "LLM",
+      "OpenAI",
+      "Claude"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "项目名称：",
+      "四个解耦包",
+      "`openhands-agent-sdk`"
+    ],
+    "summary": "OpenHands 是由卡内基梅隆大学 & All-Hands-AI 团队开源的 AI 软件开发 Agent 平台，源自 2024 年爆火的同名项目 Devin 竞品 OpenHands。最初版本（V0）是单体架构，紧耦合组件围绕沙箱执行设",
+    "file": "reports/444.md"
+  },
+  {
+    "id": "445",
+    "title": "CrewAI",
+    "url": "https://github.com/crewaiinc/crewai",
+    "organization": "crewaiinc",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "LangChain",
+      "LangGraph",
+      "LLM"
+    ],
+    "language": "Python",
+    "license": "MIT",
+    "key_innovations": [
+      "项目名称：",
+      "星标数：",
+      "角色化设计直观自然"
+    ],
+    "summary": "既能让开发者用几行代码快速搭建多 Agent 流水线，又保留了足够细粒度的自定义空间，可深入到 Agent 内部提示词、执行逻辑和事件流程。",
+    "file": "reports/445.md"
+  },
+  {
+    "id": "446",
+    "title": "MetaGPT",
+    "url": "",
+    "organization": "",
+    "stars": 0,
+    "category": "多智能体",
+    "score": 7.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "",
+    "license": "",
+    "key_innovations": [
+      "多智能体元编程框架",
+      "标准操作流程（SOP）",
+      "共享消息池（Shared Message Pool）"
+    ],
+    "summary": "MetaGPT 是由 DeepWiki 团队开发的一个**多智能体元编程框架**（Multi-Agent Framework），旨在通过模拟真实软件公司中的多角色协作流程，将自然语言需求直接转化为可执行的软件项目。给定一行需求描述，Meta",
+    "file": "reports/446.md"
+  },
+  {
+    "id": "447",
+    "title": "OpenAgents",
+    "url": "https://github.com/xlang-ai/OpenAgents",
+    "organization": "1. **普通用户**：通过 Web UI（chat.xlang.ai）直接与",
+    "stars": 4000,
+    "category": "浏览器代理",
+    "score": 7.0,
+    "tags": [
+      "GPT"
+    ],
+    "language": "Python",
+    "license": "",
+    "key_innovations": [
+      "项目名称：",
+      "开放式语言 Agent 平台",
+      "普通用户"
+    ],
+    "summary": "OpenAgents 是由斯坦福大学 XLang NLP 团队开源的**开放式语言 Agent 平台**，目标是让语言 Agent 从实验室走向真实生活。与其他专注开发者友好的框架不同，OpenAgents 同时面向三类用户：",
+    "file": "reports/447.md"
+  },
+  {
+    "id": "448",
+    "title": "OWL",
+    "url": "https://github.com/camel-ai/owl",
+    "organization": "camel-ai",
+    "stars": 2,
+    "category": "多智能体",
+    "score": 6.5,
+    "tags": [
+      "MCP"
+    ],
+    "language": "Python",
+    "license": "Apache 2.0",
+    "key_innovations": [
+      "项目名称：",
+      "CAMEL-AI 团队",
+      "GAIA 通用任务基准测试"
+    ],
+    "summary": "OWL 是由 **CAMEL-AI 团队** 开发的一个前沿多智能体协作框架，全称 *Optimized Workforce Learning for General Multi-Agent Assistance in Real-World",
+    "file": "reports/448.md"
+  },
+  {
+    "id": "449",
+    "title": "SWE",
+    "url": "https://github.com/SWE-agent",
+    "organization": "**对语言模型友好的工具设计 + 线性轨迹 = 高性能代码Agent**。",
+    "stars": 19000,
+    "category": "编码框架",
+    "score": 8.0,
+    "tags": [
+      "AI-Agent",
+      "开源"
+    ],
+    "language": "",
+    "license": "MIT",
+    "key_innovations": [
+      "项目名称：",
+      "软件工程 Agent 项目",
+      "mini-SWE-agent"
+    ],
+    "summary": "该项目还催生了 SWE-bench（AI代码修复基准）和 SWE-Smith（训练数据生成工具链），共同构成了代码Agent研究的完整生态。",
+    "file": "reports/449.md"
   }
 ]
